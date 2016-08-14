@@ -1,0 +1,436 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="151"/>
+  <o:regrouptable v:ext="edit">
+   <o:entry new="1" old="0"/>
+   <o:entry new="2" old="1"/>
+  </o:regrouptable>
+ </o:shapelayout><p:shaperange id="_x0000_s154692">
+  <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+   o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s154692" type="#_x0000_t75" style='position:absolute;
+   left:533.625pt;top:184.25pt;width:93.875pt;height:80pt' o:regroupid="2">
+   <v:imagedata src="slide0100_image028.emz" o:title="roi1" croptop="12114f"
+    cropbottom="15564f" cropleft="19784f" cropright="14662f" blacklevel="1966f"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154693">
+  <v:line id="_x0000_s154693" style='position:absolute' from="506.5pt,296pt"
+   to="541.875pt,296pt" o:regroupid="2" strokecolor="yellow [1]"
+   strokeweight="3pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line></p:shaperange>
+ <p:shaperange id="_x0000_s154694">
+  <v:line id="_x0000_s154694" style='position:absolute' from="506.5pt,323.25pt"
+   to="541.875pt,323.25pt" o:regroupid="2" strokecolor="white" strokeweight="3pt">
+   <v:stroke dashstyle="1 1"/>
+   <v:shadow color="#fc0 [2]"/>
+  </v:line></p:shaperange>
+ <p:shaperange id="_x0000_s154695">
+  <v:line id="_x0000_s154695" style='position:absolute' from="506.5pt,350.5pt"
+   to="541.875pt,350.5pt" o:regroupid="2" strokecolor="#f30" strokeweight="3pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line></p:shaperange>
+ <p:shaperange id="_x0000_s154696">
+  <v:line id="_x0000_s154696" style='position:absolute' from="506.5pt,377.75pt"
+   to="541.875pt,377.75pt" o:regroupid="2" strokecolor="#6f6" strokeweight="3pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line></p:shaperange>
+ <p:shaperange id="_x0000_s154697">
+  <v:line id="_x0000_s154697" style='position:absolute' from="506.5pt,405pt"
+   to="541.875pt,405pt" o:regroupid="2" strokecolor="#f6f" strokeweight="3pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"
+   path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+  </v:shapetype><v:shape id="_x0000_s154698" type="#_x0000_t202" style='position:absolute;
+   left:539.875pt;top:274.5pt;width:131.375pt;height:142.25pt;mso-wrap-style:none;
+   v-text-anchor:top-baseline' o:regroupid="2" filled="f" fillcolor="#0c9 [4]"
+   stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154699">
+  <v:rect id="_x0000_s154699" style='position:absolute;left:492.25pt;top:165pt;
+   width:178.625pt;height:275pt;mso-wrap-style:none;v-text-anchor:middle'
+   o:regroupid="2" filled="f" fillcolor="#0c9 [4]" strokecolor="white">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+  </v:rect><v:line id="_x0000_s154700" style='position:absolute;flip:x' from="602.25pt,234pt"
+   to="625pt,234.25pt" o:regroupid="2" strokecolor="white" strokeweight="2.25pt">
+   <v:stroke endarrow="block" endarrowwidth="narrow" endarrowlength="short"/>
+   <v:shadow color="#fc0 [2]"/>
+  </v:line><v:shape id="_x0000_s154701" type="#_x0000_t202" style='position:absolute;
+   left:622.75pt;top:220.5pt;width:42pt;height:26.5pt;mso-wrap-style:none;
+   v-text-anchor:top-baseline' o:regroupid="2" filled="f" fillcolor="#0c9 [4]"
+   stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154717">
+  <v:shape id="_x0000_s154717" style='position:absolute;left:94.75pt;top:165.75pt;
+   width:.125pt;height:274.375pt' coordsize="0,413" path="m,413l,,,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154718">
+  <v:shape id="_x0000_s154718" style='position:absolute;left:154.875pt;top:165.75pt;
+   width:.125pt;height:274.375pt' coordsize="0,413" path="m,413l,,,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154719">
+  <v:shape id="_x0000_s154719" style='position:absolute;left:214.5pt;top:165.75pt;
+   width:.125pt;height:274.375pt' coordsize="0,413" path="m,413l,,,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154720">
+  <v:shape id="_x0000_s154720" style='position:absolute;left:274.75pt;top:165.75pt;
+   width:.125pt;height:274.375pt' coordsize="0,413" path="m,413l,,,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154721">
+  <v:shape id="_x0000_s154721" style='position:absolute;left:334.875pt;top:165.75pt;
+   width:.125pt;height:274.375pt' coordsize="0,413" path="m,413l,,,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154722">
+  <v:shape id="_x0000_s154722" style='position:absolute;left:394.5pt;top:165.75pt;
+   width:.125pt;height:274.375pt' coordsize="0,413" path="m,413l,,,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154723">
+  <v:shape id="_x0000_s154723" style='position:absolute;left:454.625pt;top:165.75pt;
+   width:.125pt;height:274.375pt' coordsize="0,413" path="m,413l,,,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154724">
+  <v:shape id="_x0000_s154724" style='position:absolute;left:83.375pt;top:440.125pt;
+   width:383.375pt;height:.125pt' coordsize="541,0" path="m,l541,r,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154725">
+  <v:shape id="_x0000_s154725" style='position:absolute;left:83.375pt;top:397.625pt;
+   width:383.375pt;height:.125pt' coordsize="541,0" path="m,l541,r,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154726">
+  <v:shape id="_x0000_s154726" style='position:absolute;left:83.375pt;top:355.125pt;
+   width:383.375pt;height:.125pt' coordsize="541,0" path="m,l541,r,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154727">
+  <v:shape id="_x0000_s154727" style='position:absolute;left:83.375pt;top:313.25pt;
+   width:383.375pt;height:.125pt' coordsize="541,0" path="m,l541,r,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154728">
+  <v:shape id="_x0000_s154728" style='position:absolute;left:83.375pt;top:270.75pt;
+   width:383.375pt;height:.125pt' coordsize="541,0" path="m,l541,r,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154729">
+  <v:shape id="_x0000_s154729" style='position:absolute;left:83.375pt;top:228.875pt;
+   width:383.375pt;height:.125pt' coordsize="541,0" path="m,l541,r,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154730">
+  <v:shape id="_x0000_s154730" style='position:absolute;left:83.375pt;top:186.375pt;
+   width:383.375pt;height:.125pt' coordsize="541,0" path="m,l541,r,e" filled="f"
+   strokecolor="white" strokeweight="0">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s154731">
+  <v:line id="_x0000_s154731" style='position:absolute' from="83.375pt,165.125pt"
+   to="466.75pt,165.25pt" strokecolor="white" strokeweight="0"/>
+  <v:shape id="_x0000_s154732" style='position:absolute;left:83.375pt;top:165.125pt;
+   width:383.375pt;height:275pt' coordsize="541,414" path="m,414r541,l541,e"
+   filled="f" strokecolor="white" strokeweight="0">
+   <v:path arrowok="t"/>
+  </v:shape><v:line id="_x0000_s154733" style='position:absolute;flip:y'
+   from="83.375pt,165.125pt" to="83.5pt,440.125pt" strokecolor="white"
+   strokeweight="0"/>
+  <v:line id="_x0000_s154734" style='position:absolute' from="83.375pt,440.125pt"
+   to="466.75pt,440.25pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154735" style='position:absolute;flip:y' from="83.375pt,165.125pt"
+   to="83.5pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154736" style='position:absolute;flip:y' from="94.75pt,436.125pt"
+   to="94.875pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154737" style='position:absolute' from="94.75pt,165.75pt"
+   to="94.875pt,169.125pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154738" style='position:absolute;left:82.625pt;top:442.875pt;
+   width:24.125pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154739" style='position:absolute;flip:y' from="154.875pt,436.125pt"
+   to="155pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154740" style='position:absolute' from="154.875pt,165.75pt"
+   to="155pt,169.125pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154741" style='position:absolute;left:142.875pt;top:442.875pt;
+   width:24.125pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154742" style='position:absolute;flip:y' from="214.5pt,436.125pt"
+   to="214.625pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154743" style='position:absolute' from="214.5pt,165.75pt"
+   to="214.625pt,169.125pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154744" style='position:absolute;left:206.625pt;top:442.875pt;
+   width:17pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154745" style='position:absolute;flip:y' from="274.75pt,436.125pt"
+   to="274.875pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154746" style='position:absolute' from="274.75pt,165.75pt"
+   to="274.875pt,169.125pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154747" style='position:absolute;left:271.125pt;top:442.875pt;
+   width:12.75pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154748" style='position:absolute;flip:y' from="334.875pt,436.125pt"
+   to="335pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154749" style='position:absolute' from="334.875pt,165.75pt"
+   to="335pt,169.125pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154750" style='position:absolute;left:331.375pt;top:442.875pt;
+   width:12.75pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154751" style='position:absolute;flip:y' from="394.5pt,436.125pt"
+   to="394.625pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154752" style='position:absolute' from="394.5pt,165.75pt"
+   to="394.625pt,169.125pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154753" style='position:absolute;left:386.625pt;top:442.875pt;
+   width:19.875pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154754" style='position:absolute;flip:y' from="454.625pt,436.125pt"
+   to="454.75pt,440.125pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154755" style='position:absolute' from="454.625pt,165.75pt"
+   to="454.75pt,169.125pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154756" style='position:absolute;left:446.875pt;top:442.875pt;
+   width:19.875pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154758" style='position:absolute;flip:x' from="462.5pt,440.125pt"
+   to="466.75pt,440.25pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154759" style='position:absolute;left:60.625pt;top:433.5pt;
+   width:24.125pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154760" style='position:absolute' from="83.375pt,397.625pt"
+   to="86.875pt,397.75pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154761" style='position:absolute;flip:x' from="462.5pt,397.625pt"
+   to="466.75pt,397.75pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154762" style='position:absolute;left:72.75pt;top:391pt;
+   width:12.75pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154763" style='position:absolute' from="83.375pt,355.125pt"
+   to="86.875pt,355.25pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154764" style='position:absolute;flip:x' from="462.5pt,355.125pt"
+   to="466.75pt,355.25pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154765" style='position:absolute;left:64.875pt;top:348.5pt;
+   width:19.875pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154766" style='position:absolute' from="83.375pt,313.25pt"
+   to="86.875pt,313.375pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154767" style='position:absolute;flip:x' from="462.5pt,313.25pt"
+   to="466.75pt,313.375pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154768" style='position:absolute;left:64.875pt;top:306.625pt;
+   width:19.875pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154769" style='position:absolute' from="83.375pt,270.75pt"
+   to="86.875pt,270.875pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154770" style='position:absolute;flip:x' from="462.5pt,270.75pt"
+   to="466.75pt,270.875pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154771" style='position:absolute;left:64.875pt;top:264.125pt;
+   width:19.875pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154772" style='position:absolute' from="83.375pt,228.875pt"
+   to="86.875pt,229pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154773" style='position:absolute;flip:x' from="462.5pt,228.875pt"
+   to="466.75pt,229pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154774" style='position:absolute;left:64.875pt;top:222.25pt;
+   width:19.875pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154775" style='position:absolute' from="83.375pt,186.375pt"
+   to="86.875pt,186.5pt" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s154776" style='position:absolute;flip:x' from="462.5pt,186.375pt"
+   to="466.75pt,186.5pt" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s154777" style='position:absolute;left:64.875pt;top:179.75pt;
+   width:19.875pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s154778" style='position:absolute' from="83.375pt,165.125pt"
+   to="466.75pt,165.25pt" strokecolor="white" strokeweight="0"/>
+  <v:shape id="_x0000_s154779" style='position:absolute;left:83.375pt;top:165.125pt;
+   width:383.375pt;height:275pt' coordsize="541,414" path="m,414r541,l541,e"
+   filled="f" strokecolor="white" strokeweight="0">
+   <v:path arrowok="t"/>
+  </v:shape><v:line id="_x0000_s154780" style='position:absolute;flip:y'
+   from="83.375pt,165.125pt" to="83.5pt,440.125pt" strokecolor="white"
+   strokeweight="0"/>
+  <v:polyline id="_x0000_s154781" style='position:absolute' points="89.75pt,195.625pt,91.125pt,197pt,92.625pt,200.25pt,94pt,206.25pt,95.375pt,214.875pt,96.875pt,226.25pt,98.25pt,239.5pt,99.625pt,253.5pt,101.125pt,266.125pt,102.5pt,277.375pt,103.875pt,289.375pt,105.375pt,299.25pt,106.75pt,305.25pt,108.125pt,304.625pt,110.25pt,302pt,111.75pt,300.625pt,113.125pt,299.25pt,114.5pt,298pt,116pt,296pt,117.375pt,294pt,118.75pt,292pt,120.25pt,292pt,121.625pt,294pt,123pt,298pt,124.5pt,303.25pt,125.875pt,308.625pt,127.25pt,312.625pt,128.75pt,313.875pt,130.125pt,313.25pt,131.5pt,312.625pt,133pt,311.875pt,134.375pt,312.625pt,136.5pt,313.25pt,137.875pt,313.875pt,139.375pt,311.875pt,140.75pt,308.625pt,142.125pt,306pt,143.625pt,305.25pt,145pt,306.625pt,146.375pt,309.25pt,147.875pt,312.625pt,149.25pt,316.625pt,150.625pt,321.25pt,152.125pt,327.25pt,153.5pt,332.5pt,154.875pt,334.5pt,156.375pt,333.875pt,157.75pt,333.25pt,159.125pt,333.875pt,161.25pt,334.5pt,162.75pt,336.5pt,164.125pt,338.5pt,165.5pt,341.125pt,167pt,343.875pt,168.375pt,345.875pt,169.875pt,347.125pt,171.25pt,348.5pt,172.625pt,347.75pt,174.125pt,343.875pt,175.5pt,338.5pt,176.875pt,335.875pt,178.375pt,335.875pt,179.75pt,337.875pt,181.125pt,340.5pt,182.625pt,342.5pt,184pt,341.875pt,186.125pt,340.5pt,187.5pt,337.875pt,189pt,335.875pt,190.375pt,334.5pt,191.75pt,335.875pt,193.25pt,339.875pt,194.625pt,345.875pt,196pt,349.75pt,197.5pt,347.75pt,198.875pt,344.5pt,200.25pt,342.5pt,201.75pt,342.5pt,203.125pt,342.5pt,204.5pt,341.875pt,206pt,340.5pt,207.375pt,338.5pt,208.75pt,335.875pt,210.25pt,331.875pt,212.375pt,329.25pt,213.75pt,327.25pt,215.125pt,326.5pt,216.625pt,328.5pt,218pt,331.25pt,219.375pt,334.5pt,220.875pt,337.875pt,222.25pt,339.125pt,223.625pt,340.5pt,225.125pt,341.875pt,226.5pt,341.875pt,227.875pt,339.875pt,229.375pt,337.125pt,230.75pt,333.875pt,232.125pt,333.25pt,233.625pt,333.25pt,235pt,331.25pt,237.125pt,321.875pt,238.5pt,309.25pt,240pt,296.625pt,241.375pt,286.625pt,242.75pt,279.375pt,244.25pt,274pt,245.625pt,270.75pt,247pt,269.375pt,248.5pt,270.125pt,249.875pt,272.75pt,251.25pt,277.375pt,252.75pt,284pt,254.125pt,292.625pt,255.5pt,303.25pt,257pt,313.25pt,258.375pt,318.625pt,259.75pt,318.625pt,261.25pt,315.875pt,263.375pt,310.625pt,264.75pt,303.25pt,266.25pt,291.375pt,267.625pt,278.75pt,269pt,266.125pt,270.5pt,255.5pt,271.875pt,246.75pt,273.25pt,240.125pt,274.75pt,236.125pt"
+   coordsize="1480,1233" filled="f" strokecolor="yellow" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154782" style='position:absolute'
+   points="274.75pt,236.125pt,276.125pt,234.125pt,277.5pt,234.875pt,279pt,237.5pt,280.375pt,243.5pt,281.75pt,251.5pt,283.25pt,261.375pt,284.625pt,274pt,286pt,4in,288.125pt,302pt,289.625pt,312.625pt,291pt,319.875pt,292.375pt,325.25pt,293.875pt,328.5pt,295.25pt,329.875pt,296.625pt,330.5pt,298.125pt,330.5pt,299.5pt,329.25pt,300.875pt,325.25pt,302.375pt,319.875pt,303.75pt,314.625pt,305.125pt,311.25pt,306.625pt,310.625pt,308pt,311.875pt,309.375pt,315.25pt,310.875pt,319.875pt,312.25pt,325.25pt,314.375pt,331.25pt,315.75pt,335.875pt,317.25pt,338.5pt,318.625pt,339.875pt,320pt,341.875pt,321.5pt,345.125pt,322.875pt,348.5pt,324.25pt,351.125pt,325.75pt,350.5pt,327.125pt,348.5pt,328.5pt,345.875pt,330pt,342.5pt,331.375pt,337.875pt,332.75pt,333.25pt,334.25pt,329.875pt,335.625pt,327.875pt,337pt,328.5pt,339.125pt,331.25pt,340.625pt,335.125pt,342pt,339.125pt,343.375pt,342.5pt,344.875pt,344.5pt,346.25pt,345.875pt,347.625pt,347.125pt,349.125pt,348.5pt,350.5pt,348.5pt,351.875pt,347.125pt,353.375pt,346.5pt,354.75pt,347.125pt,356.125pt,347.125pt,357.625pt,344.5pt,359pt,340.5pt,360.375pt,337.125pt,361.875pt,335.125pt,363.25pt,335.125pt,365.375pt,336.5pt,366.875pt,336.5pt,368.25pt,333.875pt,369.625pt,329.875pt,371.125pt,325.875pt,372.5pt,323.875pt,373.875pt,323.25pt,375.375pt,325.25pt,376.75pt,327.25pt,378.125pt,327.25pt,379.625pt,324.5pt,381pt,321.875pt,382.375pt,320.625pt,383.875pt,321.875pt,385.25pt,325.875pt,386.625pt,331.25pt,388.125pt,335.875pt,390.25pt,336.5pt,391.625pt,335.125pt,393pt,331.25pt,394.5pt,327.25pt,395.875pt,322.5pt,397.25pt,318.625pt,398.75pt,314.625pt,400.125pt,312.625pt,401.5pt,311.25pt,403pt,311.875pt,404.375pt,315.25pt,405.75pt,319.875pt,407.25pt,326.5pt,408.625pt,331.875pt,410pt,334.5pt,411.5pt,333.875pt,412.875pt,331.875pt,415pt,329.25pt,416.375pt,327.875pt,417.875pt,326.5pt,419.25pt,323.25pt,420.625pt,317.875pt,422.125pt,309.25pt,423.5pt,302pt,424.875pt,297.25pt,426.375pt,294.625pt,427.75pt,293.375pt,429.125pt,292.625pt,430.625pt,290.625pt,6in,4in,433.375pt,286pt,434.875pt,285.375pt,436.25pt,285.375pt,437.625pt,287.375pt,439.125pt,290pt,441.25pt,293.375pt,442.625pt,298pt,444pt,301.25pt,445.5pt,300.625pt,446.875pt,297.25pt,448.25pt,287.375pt,449.75pt,276pt,451.125pt,263.375pt,452.5pt,251.5pt,454pt,238.875pt,455.375pt,226.875pt,456.75pt,216.25pt,458.25pt,207pt,459.625pt,201pt"
+   coordsize="1479,1201" filled="f" strokecolor="yellow" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:line id="_x0000_s154783" style='position:absolute;flip:y'
+   from="459.625pt,197pt" to="461pt,201pt" strokecolor="yellow" strokeweight="1.01425mm"/>
+  <v:polyline id="_x0000_s154784" style='position:absolute' points="89.75pt,317.25pt,91.125pt,317.875pt,92.625pt,320.625pt,94pt,323.875pt,95.375pt,327.875pt,96.875pt,332.5pt,98.25pt,337.875pt,99.625pt,343.875pt,101.125pt,349.75pt,102.5pt,355.75pt,103.875pt,360.375pt,105.375pt,363.125pt,106.75pt,363.125pt,108.125pt,361.125pt,110.25pt,359.125pt,111.75pt,358.5pt,113.125pt,359.125pt,114.5pt,361.125pt,116pt,364.375pt,117.375pt,367.75pt,118.75pt,369.75pt,120.25pt,370.375pt,121.625pt,370.375pt,123pt,369.75pt,124.5pt,369.75pt,125.875pt,369.75pt,127.25pt,369.75pt,128.75pt,369.125pt,130.125pt,368.375pt,131.5pt,367.125pt,133pt,365.125pt,134.375pt,364.375pt,136.5pt,364.375pt,137.875pt,364.375pt,139.375pt,365.125pt,140.75pt,365.125pt,142.125pt,365.125pt,143.625pt,363.75pt,145pt,363.125pt,146.375pt,363.125pt,147.875pt,364.375pt,149.25pt,367.125pt,150.625pt,368.375pt,152.125pt,368.375pt,153.5pt,368.375pt,154.875pt,368.375pt,156.375pt,368.375pt,157.75pt,367.125pt,159.125pt,364.375pt,161.25pt,362.375pt,162.75pt,359.75pt,164.125pt,359.125pt,165.5pt,358.5pt,167pt,359.125pt,168.375pt,359.75pt,169.875pt,359.75pt,171.25pt,358.5pt,172.625pt,356.5pt,174.125pt,353.75pt,175.5pt,350.5pt,176.875pt,346.5pt,178.375pt,343.125pt,179.75pt,341.125pt,181.125pt,339.875pt,182.625pt,337.875pt,184pt,335.125pt,186.125pt,331.875pt,187.5pt,329.25pt,189pt,327.875pt,190.375pt,329.25pt,191.75pt,332.5pt,193.25pt,337.125pt,194.625pt,343.875pt,196pt,350.5pt,197.5pt,353.125pt,198.875pt,351.75pt,200.25pt,349.75pt,201.75pt,347.125pt,203.125pt,345.875pt,204.5pt,343.875pt,206pt,341.125pt,207.375pt,338.5pt,208.75pt,335.875pt,210.25pt,333.875pt,212.375pt,331.25pt,213.75pt,330.5pt,215.125pt,329.875pt,216.625pt,329.875pt,218pt,331.25pt,219.375pt,333.25pt,220.875pt,336.5pt,222.25pt,339.875pt,223.625pt,342.5pt,225.125pt,343.875pt,226.5pt,342.5pt,227.875pt,339.125pt,229.375pt,336.5pt,230.75pt,335.125pt,232.125pt,336.5pt,233.625pt,338.5pt,235pt,335.875pt,237.125pt,326.5pt,238.5pt,315.25pt,240pt,303.25pt,241.375pt,293.375pt,242.75pt,284.625pt,244.25pt,278.75pt,245.625pt,274pt,247pt,272pt,248.5pt,272.75pt,249.875pt,274.75pt,251.25pt,279.375pt,252.75pt,286.625pt,254.125pt,296pt,255.5pt,306.625pt,257pt,315.25pt,258.375pt,319.875pt,259.75pt,319.875pt,261.25pt,317.875pt,263.375pt,315.25pt,264.75pt,309.25pt,266.25pt,298.625pt,267.625pt,284.625pt,269pt,271.375pt,270.5pt,258.75pt,271.875pt,249.5pt,273.25pt,242.125pt,274.75pt,237.5pt"
+   coordsize="1480,1063" filled="f" strokecolor="lime" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154785" style='position:absolute'
+   points="274.75pt,237.5pt,276.125pt,235.5pt,277.5pt,235.5pt,279pt,238.875pt,280.375pt,244.125pt,281.75pt,251.5pt,283.25pt,262.125pt,284.625pt,274pt,286pt,288.625pt,288.125pt,302.625pt,289.625pt,314.625pt,291pt,323.25pt,292.375pt,329.25pt,293.875pt,332.5pt,295.25pt,333.875pt,296.625pt,334.5pt,298.125pt,333.25pt,299.5pt,330.5pt,300.875pt,326.5pt,302.375pt,321.25pt,303.75pt,316.625pt,305.125pt,313.25pt,306.625pt,311.875pt,308pt,312.625pt,309.375pt,315.25pt,310.875pt,319.875pt,312.25pt,325.875pt,314.375pt,332.5pt,315.75pt,339.125pt,317.25pt,343.875pt,318.625pt,347.125pt,320pt,349.125pt,321.5pt,351.75pt,322.875pt,353.75pt,324.25pt,356.5pt,325.75pt,357.75pt,327.125pt,357.125pt,328.5pt,355.75pt,330pt,351.75pt,331.375pt,345.875pt,332.75pt,339.125pt,334.25pt,335.125pt,335.625pt,333.875pt,337pt,335.125pt,339.125pt,338.5pt,340.625pt,341.875pt,342pt,344.5pt,343.375pt,346.5pt,344.875pt,348.5pt,346.25pt,350.5pt,347.625pt,351.75pt,349.125pt,352.5pt,350.5pt,352.5pt,351.875pt,352.5pt,353.375pt,352.5pt,354.75pt,351.125pt,356.125pt,348.5pt,357.625pt,345.875pt,359pt,344.5pt,360.375pt,343.875pt,361.875pt,343.875pt,363.25pt,344.5pt,365.375pt,345.125pt,366.875pt,345.125pt,368.25pt,344.5pt,369.625pt,343.125pt,371.125pt,341.875pt,372.5pt,340.5pt,373.875pt,339.875pt,375.375pt,340.5pt,376.75pt,343.125pt,378.125pt,345.875pt,379.625pt,348.5pt,381pt,351.125pt,382.375pt,352.5pt,383.875pt,353.125pt,385.25pt,354.5pt,386.625pt,356.5pt,388.125pt,357.125pt,390.25pt,357.75pt,391.625pt,357.75pt,393pt,357.125pt,394.5pt,357.125pt,395.875pt,357.75pt,397.25pt,358.5pt,398.75pt,359.75pt,400.125pt,361.125pt,401.5pt,363.125pt,403pt,365.125pt,404.375pt,366.375pt,405.75pt,368.375pt,407.25pt,370.375pt,408.625pt,371.75pt,410pt,372.375pt,411.5pt,373pt,412.875pt,373pt,415pt,372.375pt,416.375pt,371.125pt,417.875pt,369.125pt,419.25pt,368.375pt,420.625pt,368.375pt,422.125pt,369.125pt,423.5pt,369.75pt,424.875pt,369.75pt,426.375pt,368.375pt,427.75pt,366.375pt,429.125pt,364.375pt,430.625pt,361.125pt,6in,359.125pt,433.375pt,358.5pt,434.875pt,358.5pt,436.25pt,359.125pt,437.625pt,359.75pt,439.125pt,359.125pt,441.25pt,357.125pt,442.625pt,354.5pt,444pt,349.75pt,445.5pt,345.125pt,446.875pt,340.5pt,448.25pt,335.875pt,449.75pt,331.875pt,451.125pt,328.5pt,452.5pt,326.5pt,454pt,324.5pt,455.375pt,323.25pt,456.75pt,321.875pt,458.25pt,319.875pt,459.625pt,317.875pt"
+   coordsize="1479,1100" filled="f" strokecolor="lime" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:line id="_x0000_s154786" style='position:absolute;flip:y'
+   from="459.625pt,317.25pt" to="461pt,317.875pt" strokecolor="lime"
+   strokeweight="1.01425mm"/>
+  <v:polyline id="_x0000_s154788" style='position:absolute' points="95.375pt,440.875pt,96.875pt,434.125pt,98.25pt,435.5pt,99.625pt,440.875pt"
+   coordsize="34,54" filled="f" strokecolor="red" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154789" style='position:absolute'
+   points="100.375pt,440.875pt,101.125pt,438.875pt,102.5pt,429.5pt,103.875pt,424.875pt,105.375pt,422.875pt,106.75pt,412.875pt,108.125pt,396.25pt,110.25pt,380.375pt,111.75pt,368.375pt,113.125pt,359.125pt,114.5pt,352.5pt,116pt,347.75pt,117.375pt,345.125pt,118.75pt,343.125pt,120.25pt,341.125pt,121.625pt,339.875pt,123pt,337.875pt,124.5pt,334.5pt,125.875pt,329.25pt,127.25pt,324.5pt,128.75pt,321.25pt,130.125pt,319.875pt,131.5pt,320.625pt,133pt,321.875pt,134.375pt,323.875pt,136.5pt,325.25pt,137.875pt,323.875pt,139.375pt,321.25pt,140.75pt,317.25pt,142.125pt,313.875pt,143.625pt,312.625pt,145pt,312.625pt,146.375pt,313.25pt,147.875pt,315.875pt,149.25pt,320.625pt,150.625pt,325.875pt,152.125pt,333.25pt,153.5pt,341.875pt,154.875pt,347.125pt,156.375pt,347.75pt,157.75pt,344.5pt,159.125pt,342.5pt,161.25pt,341.125pt,162.75pt,341.125pt,164.125pt,342.5pt,165.5pt,344.5pt,167pt,347.75pt,168.375pt,351.125pt,169.875pt,353.75pt,171.25pt,353.75pt,172.625pt,351.125pt,174.125pt,347.75pt,175.5pt,345.875pt,176.875pt,344.5pt,178.375pt,345.125pt,179.75pt,345.875pt,181.125pt,346.5pt,182.625pt,345.875pt,184pt,343.875pt,186.125pt,341.875pt,187.5pt,339.875pt,189pt,339.125pt,190.375pt,340.5pt,191.75pt,343.875pt,193.25pt,347.75pt,194.625pt,351.75pt,196pt,353.125pt,197.5pt,352.5pt,198.875pt,350.5pt,200.25pt,348.5pt,201.75pt,346.5pt,203.125pt,343.875pt,204.5pt,341.875pt,206pt,340.5pt,207.375pt,338.5pt,208.75pt,337.125pt,210.25pt,335.875pt,212.375pt,333.875pt,213.75pt,332.5pt,215.125pt,331.25pt,216.625pt,331.25pt,218pt,331.25pt,219.375pt,333.25pt,220.875pt,335.875pt,222.25pt,338.5pt,223.625pt,341.125pt,225.125pt,341.875pt,226.5pt,340.5pt,227.875pt,338.5pt,229.375pt,336.5pt,230.75pt,335.875pt,232.125pt,335.875pt,233.625pt,335.875pt,235pt,331.25pt,237.125pt,321.875pt,238.5pt,310.625pt,240pt,299.25pt,241.375pt,289.375pt,242.75pt,281.375pt,244.25pt,275.375pt,245.625pt,271.375pt,247pt,269.375pt,248.5pt,270.125pt,249.875pt,272.75pt,251.25pt,277.375pt,252.75pt,284.625pt,254.125pt,294pt,255.5pt,305.25pt,257pt,313.875pt,258.375pt,317.875pt,259.75pt,317.25pt,261.25pt,313.875pt,263.375pt,309.875pt,264.75pt,303.25pt,266.25pt,293.375pt,267.625pt,280.75pt,269pt,268.125pt,270.5pt,256.75pt,271.875pt,247.5pt,273.25pt,240.125pt,274.75pt,236.125pt,276.125pt,234.125pt,277.5pt,234.875pt,279pt,237.5pt,280.375pt,242.875pt,281.75pt,250.75pt,283.25pt,261.375pt,284.625pt,274pt"
+   coordsize="1474,1654" filled="f" strokecolor="red" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154790" style='position:absolute'
+   points="284.625pt,274pt,286pt,4in,288.125pt,300.625pt,289.625pt,311.25pt,291pt,318.625pt,292.375pt,325.25pt,293.875pt,329.875pt,295.25pt,331.875pt,296.625pt,332.5pt,298.125pt,332.5pt,299.5pt,330.5pt,300.875pt,326.5pt,302.375pt,321.25pt,303.75pt,316.625pt,305.125pt,313.25pt,306.625pt,311.875pt,308pt,312.625pt,309.375pt,315.25pt,310.875pt,319.25pt,312.25pt,325.25pt,314.375pt,331.25pt,315.75pt,336.5pt,317.25pt,339.875pt,318.625pt,342.5pt,320pt,345.125pt,321.5pt,347.125pt,322.875pt,349.75pt,324.25pt,351.75pt,325.75pt,352.5pt,327.125pt,351.125pt,328.5pt,348.5pt,330pt,344.5pt,331.375pt,338.5pt,332.75pt,333.25pt,334.25pt,329.875pt,335.625pt,329.25pt,337pt,331.25pt,339.125pt,335.125pt,340.625pt,339.875pt,342pt,343.125pt,343.375pt,345.125pt,344.875pt,346.5pt,346.25pt,347.75pt,347.625pt,349.75pt,349.125pt,351.125pt,350.5pt,352.5pt,351.875pt,353.125pt,353.375pt,353.125pt,354.75pt,351.75pt,356.125pt,349.75pt,357.625pt,347.75pt,359pt,346.5pt,360.375pt,345.125pt,361.875pt,343.875pt,363.25pt,342.5pt,365.375pt,340.5pt,366.875pt,339.125pt,368.25pt,337.125pt,369.625pt,333.875pt,371.125pt,331.875pt,372.5pt,329.875pt,373.875pt,329.875pt,375.375pt,330.5pt,376.75pt,331.875pt,378.125pt,332.5pt,379.625pt,332.5pt,381pt,331.875pt,382.375pt,331.875pt,383.875pt,332.5pt,385.25pt,333.25pt,386.625pt,335.125pt,388.125pt,337.125pt,390.25pt,339.125pt,391.625pt,338.5pt,393pt,335.125pt,394.5pt,330.5pt,395.875pt,325.875pt,397.25pt,321.875pt,398.75pt,319.25pt,400.125pt,318.625pt,401.5pt,319.25pt,403pt,321.25pt,404.375pt,323.875pt,405.75pt,327.25pt,407.25pt,331.25pt,408.625pt,335.125pt,410pt,339.125pt,411.5pt,341.875pt,412.875pt,342.5pt,415pt,341.125pt,416.375pt,337.875pt,417.875pt,335.125pt,419.25pt,332.5pt,420.625pt,331.25pt,422.125pt,330.5pt,423.5pt,329.25pt,424.875pt,327.875pt,426.375pt,326.5pt,427.75pt,325.875pt,429.125pt,325.875pt,430.625pt,327.875pt,6in,331.25pt,433.375pt,335.875pt,434.875pt,341.125pt,436.25pt,347.125pt,437.625pt,353.125pt,439.125pt,359.125pt,441.25pt,365.75pt,442.625pt,373.75pt,444pt,383.75pt,445.5pt,397pt,446.875pt,410.25pt,448.25pt,417.625pt,449.75pt,422.875pt,451.125pt,432.875pt,451.875pt,440.875pt"
+   coordsize="1338,1335" filled="f" strokecolor="red" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154792" style='position:absolute'
+   points="111pt,440.875pt,111.75pt,439.5pt,113.125pt,437.5pt,114.5pt,430.875pt,116pt,419.625pt,117.375pt,410.875pt,118.75pt,405pt,120.25pt,399pt,121.625pt,393pt,123pt,386.375pt,124.5pt,381pt,125.875pt,375.75pt,127.25pt,372.375pt,128.75pt,369.125pt,130.125pt,366.375pt,131.5pt,364.375pt,133pt,363.125pt,134.375pt,362.375pt,136.5pt,362.375pt,137.875pt,363.75pt,139.375pt,365.125pt,140.75pt,366.375pt,142.125pt,367.75pt,143.625pt,367.75pt,145pt,368.375pt,146.375pt,369.125pt,147.875pt,371.125pt,149.25pt,373pt,150.625pt,374.375pt,152.125pt,373.75pt,153.5pt,373.75pt,154.875pt,373.75pt,156.375pt,374.375pt,157.75pt,372.375pt,159.125pt,369.75pt,161.25pt,367.125pt,162.75pt,365.125pt,164.125pt,364.375pt,165.5pt,364.375pt,167pt,365.125pt,168.375pt,365.75pt,169.875pt,365.125pt,171.25pt,363.75pt,172.625pt,361.75pt,174.125pt,359.75pt,175.5pt,356.5pt,176.875pt,352.5pt,178.375pt,349.125pt,179.75pt,346.5pt,181.125pt,343.875pt,182.625pt,342.5pt,184pt,339.875pt,186.125pt,337.125pt,187.5pt,335.125pt,189pt,333.875pt,190.375pt,333.875pt,191.75pt,336.5pt,193.25pt,340.5pt,194.625pt,346.5pt,196pt,352.5pt,197.5pt,355.75pt,198.875pt,354.5pt,200.25pt,352.5pt,201.75pt,349.75pt,203.125pt,348.5pt,204.5pt,346.5pt,206pt,344.5pt,207.375pt,341.125pt,208.75pt,338.5pt,210.25pt,335.125pt,212.375pt,333.25pt,213.75pt,331.875pt,215.125pt,331.875pt,216.625pt,331.875pt,218pt,333.25pt,219.375pt,334.5pt,220.875pt,337.125pt,222.25pt,340.5pt,223.625pt,343.875pt,225.125pt,344.5pt,226.5pt,343.125pt,227.875pt,339.875pt,229.375pt,336.5pt,230.75pt,335.875pt,232.125pt,337.125pt,233.625pt,339.875pt,235pt,337.125pt,237.125pt,327.875pt,238.5pt,315.875pt,240pt,304pt,241.375pt,294pt,242.75pt,286pt,244.25pt,279.375pt,245.625pt,275.375pt,247pt,272.75pt,248.5pt,272.75pt,249.875pt,275.375pt,251.25pt,279.375pt,252.75pt,286.625pt,254.125pt,295.375pt,255.5pt,306pt,257pt,314.625pt,258.375pt,319.25pt,259.75pt,319.875pt,261.25pt,318.625pt,263.375pt,315.875pt,264.75pt,310.625pt,266.25pt,300pt,267.625pt,286pt,269pt,272pt,270.5pt,259.375pt,271.875pt,249.5pt,273.25pt,242.125pt,274.75pt,237.5pt,276.125pt,235.5pt,277.5pt,235.5pt,279pt,238.125pt,280.375pt,243.5pt,281.75pt,251.5pt,283.25pt,261.375pt,284.625pt,274pt,286pt,4in,288.125pt,302.625pt,289.625pt,314.625pt,291pt,323.875pt,292.375pt,329.875pt,293.875pt,333.25pt,295.25pt,335.125pt"
+   coordsize="1474,1643" filled="f" strokecolor="fuchsia" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154793" style='position:absolute'
+   points="295.25pt,335.125pt,296.625pt,335.875pt,298.125pt,334.5pt,299.5pt,331.875pt,300.875pt,327.25pt,302.375pt,321.875pt,303.75pt,317.25pt,305.125pt,313.875pt,306.625pt,312.625pt,308pt,313.25pt,309.375pt,315.25pt,310.875pt,319.875pt,312.25pt,325.875pt,314.375pt,333.25pt,315.75pt,339.875pt,317.25pt,345.125pt,318.625pt,347.75pt,320pt,350.5pt,321.5pt,353.125pt,322.875pt,355.125pt,324.25pt,357.75pt,325.75pt,359.125pt,327.125pt,358.5pt,328.5pt,356.5pt,330pt,353.125pt,331.375pt,347.125pt,332.75pt,341.125pt,334.25pt,337.125pt,335.625pt,335.875pt,337pt,337.125pt,339.125pt,339.875pt,340.625pt,343.875pt,342pt,345.875pt,343.375pt,347.75pt,344.875pt,350.5pt,346.25pt,352.5pt,347.625pt,354.5pt,349.125pt,355.75pt,350.5pt,356.5pt,351.875pt,356.5pt,353.375pt,355.75pt,354.75pt,355.125pt,356.125pt,353.125pt,357.625pt,350.5pt,359pt,349.125pt,360.375pt,347.75pt,361.875pt,347.75pt,363.25pt,348.5pt,365.375pt,349.125pt,366.875pt,349.75pt,368.25pt,349.75pt,369.625pt,349.125pt,371.125pt,347.75pt,372.5pt,345.875pt,373.875pt,345.875pt,375.375pt,346.5pt,376.75pt,349.125pt,378.125pt,353.125pt,379.625pt,356.5pt,381pt,358.5pt,382.375pt,359.125pt,383.875pt,358.5pt,385.25pt,359.125pt,386.625pt,360.375pt,388.125pt,362.375pt,390.25pt,364.375pt,391.625pt,364.375pt,393pt,363.75pt,394.5pt,363.75pt,395.875pt,363.75pt,397.25pt,363.75pt,398.75pt,365.125pt,400.125pt,367.125pt,401.5pt,369.75pt,403pt,371.125pt,404.375pt,372.375pt,405.75pt,373pt,407.25pt,374.375pt,408.625pt,375.75pt,410pt,376.375pt,411.5pt,376.375pt,412.875pt,375.75pt,415pt,375pt,416.375pt,373pt,417.875pt,371.125pt,419.25pt,370.375pt,420.625pt,370.375pt,422.125pt,371.75pt,423.5pt,373.75pt,424.875pt,375.75pt,426.375pt,377pt,427.75pt,378.375pt,429.125pt,381.75pt,430.625pt,385pt,6in,390.375pt,433.375pt,395pt,434.875pt,401pt,436.25pt,407.625pt,437.625pt,415.625pt,439.125pt,424.25pt,441.25pt,428.875pt,442.625pt,434.875pt,443.375pt,440.875pt"
+   coordsize="1185,1026" filled="f" strokecolor="fuchsia" strokeweight="1.01425mm">
+   <v:path arrowok="t"/>
+  </v:polyline></p:shaperange>
+ <p:shaperange id="_x0000_s154794">
+  <v:rect id="_x0000_s154794" style='position:absolute;left:41.25pt;top:291.5pt;
+   width:21.25pt;height:16.625pt;rotation:270;mso-wrap-style:none' filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s154795">
+  <v:rect id="_x0000_s154795" style='position:absolute;left:206pt;top:456.75pt;
+   width:141pt;height:16.625pt;mso-wrap-style:none' filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:oval id="_x0000_s154796" style='position:absolute;left:86.875pt;
+   top:1506.625pt;width:3.625pt;height:3.25pt' stroked="f"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_s154797">
+  <v:polyline id="_x0000_s154797" style='position:absolute' points="89.75pt,440.875pt,89.75pt,428.25pt,90.5pt,422.25pt,90.5pt,416.875pt,91.125pt,412.875pt,91.125pt,409.625pt,91.875pt,406.25pt,91.875pt,404.25pt,92.625pt,401.625pt,92.625pt,400.25pt,93.25pt,399pt,93.25pt,398.25pt,94.75pt,397.625pt,94.75pt,399pt,95.375pt,399.625pt,95.375pt,401.625pt,96.125pt,404.25pt,96.125pt,407.625pt,96.875pt,412.25pt,97.5pt,418.875pt,97.5pt,440.875pt"
+   coordsize="62,346" filled="f" strokecolor="white" strokeweight="1.01425mm">
+   <v:stroke dashstyle="3 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154798" style='position:absolute'
+   points="99pt,440.875pt,99.625pt,422.25pt,99.625pt,407.625pt,100.375pt,396.25pt,100.375pt,386.375pt,101.125pt,378.375pt,101.125pt,371.125pt,101.75pt,364.375pt,101.75pt,359.125pt,102.5pt,353.125pt,102.5pt,348.5pt,103.25pt,343.125pt,103.25pt,339.125pt,103.875pt,334.5pt,103.875pt,330.5pt,104.625pt,326.5pt,104.625pt,322.5pt,105.375pt,319.25pt,105.375pt,315.875pt,106pt,311.875pt,106pt,309.25pt,106.75pt,306pt,106.75pt,302.625pt,107.5pt,299.25pt,107.5pt,296.625pt,108.125pt,294pt,108.125pt,290.625pt,108.875pt,4in,108.875pt,285.375pt,109.625pt,282.75pt,110.25pt,280pt,110.25pt,277.375pt,111pt,274.75pt,111pt,272pt,111.75pt,269.375pt,111.75pt,267.375pt,112.375pt,264.75pt,112.375pt,262.125pt,113.125pt,260.125pt,113.125pt,257.5pt,113.875pt,255.5pt,113.875pt,252.75pt,114.5pt,250.75pt,114.5pt,248.125pt,115.25pt,246.125pt,115.25pt,243.5pt,116pt,241.5pt,116pt,239.5pt,116.625pt,236.875pt,116.625pt,234.875pt,117.375pt,232.875pt,117.375pt,230.875pt,118.125pt,228.25pt,118.125pt,226.25pt,118.75pt,224.25pt,118.75pt,222.25pt,119.5pt,220.25pt,119.5pt,218.25pt,120.25pt,216.25pt,120.25pt,214.25pt,120.875pt,212.25pt,120.875pt,210.25pt,121.625pt,208.25pt,121.625pt,206.25pt,122.375pt,205pt,123pt,203pt,123pt,201.625pt,123.75pt,199.625pt,123.75pt,198.25pt,124.5pt,197pt,124.5pt,195.625pt,125.125pt,194.375pt,125.125pt,193pt,125.875pt,192.375pt,125.875pt,191pt,126.625pt,190.375pt,126.625pt,189.625pt,127.25pt,189pt,127.25pt,188.375pt,128pt,187.625pt,130.125pt,186.375pt,129.375pt,186.375pt,130.125pt,186.375pt,130.875pt,186.375pt,131.5pt,187pt,132.25pt,187pt,133pt,187pt,133.625pt,187.625pt,134.375pt,188.375pt,135.125pt,188.375pt,135.75pt,188.375pt,136.5pt,189pt,137.25pt,189pt,137.875pt,189.625pt,138.625pt,189.625pt,139.375pt,190.375pt,140pt,190.375pt,140.75pt,191pt,141.5pt,191pt,142.125pt,191pt,142.875pt,191.625pt,143.625pt,191.625pt,144.25pt,191.625pt,145pt,192.375pt,145.75pt,192.375pt,146.375pt,192.375pt,147.125pt,192.375pt,147.875pt,192.375pt,148.5pt,192.375pt,149.25pt,192.375pt,150pt,192.375pt,150.625pt,193pt,151.375pt,193pt,152.125pt,193pt,152.75pt,193pt,153.5pt,193pt,154.25pt,193pt,154.875pt,193pt,155.625pt,193pt,156.375pt,193pt,157pt,193pt,157.75pt,193pt,158.5pt,193pt,159.125pt,193pt,159.875pt,193pt,160.625pt,193pt,161.25pt,193pt,162pt,193pt"
+   coordsize="504,2036" filled="f" strokecolor="white" strokeweight="1.01425mm">
+   <v:stroke dashstyle="3 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline></p:shaperange>
+ <p:shaperange id="_x0000_s154799">
+  <v:polyline id="_x0000_s154799" style='position:absolute' points="162pt,193pt,162.75pt,192.375pt,163.375pt,192.375pt,164.125pt,192.375pt,164.875pt,192.375pt,165.5pt,192.375pt,166.25pt,192.375pt,167pt,192.375pt,167.75pt,192.375pt,168.375pt,192.375pt,169.125pt,192.375pt,169.875pt,192.375pt,170.5pt,192.375pt,171.25pt,191.625pt,172pt,191.625pt,172.625pt,191.625pt,173.375pt,191.625pt,174.125pt,191.625pt,174.75pt,191.625pt,175.5pt,191.625pt,176.25pt,191.625pt,176.875pt,191.625pt,177.625pt,191.625pt,178.375pt,191.625pt,179pt,191pt,179.75pt,191pt,180.5pt,191pt,181.125pt,191pt,181.875pt,191pt,182.625pt,191pt,183.25pt,191pt,184pt,191pt,184.75pt,191pt,185.375pt,191pt,186.125pt,190.375pt,186.875pt,190.375pt,187.5pt,190.375pt,188.25pt,190.375pt,189pt,190.375pt,189.625pt,190.375pt,190.375pt,190.375pt,191.125pt,190.375pt,191.75pt,190.375pt,192.5pt,190.375pt,193.25pt,189.625pt,193.875pt,189.625pt,194.625pt,189.625pt,195.375pt,189.625pt,196pt,189.625pt,196.75pt,189.625pt,197.5pt,189.625pt,198.125pt,189.625pt,198.875pt,189.625pt,199.625pt,189.625pt,200.25pt,189.625pt,201pt,189pt,201.75pt,189pt,202.375pt,189pt,203.125pt,189pt,203.875pt,189pt,204.5pt,189pt,205.25pt,189pt,206pt,189pt,206.625pt,189pt,207.375pt,189pt,208.125pt,189pt,208.75pt,189pt,209.5pt,189pt,210.25pt,188.375pt,210.875pt,188.375pt,211.625pt,188.375pt,212.375pt,188.375pt,213pt,188.375pt,213.75pt,188.375pt,214.5pt,188.375pt,215.125pt,188.375pt,215.875pt,188.375pt,216.625pt,188.375pt,217.25pt,188.375pt,218pt,188.375pt,218.75pt,188.375pt,219.375pt,188.375pt,220.125pt,188.375pt,220.875pt,187.625pt,221.5pt,187.625pt,222.25pt,187.625pt,223pt,187.625pt,223.625pt,187.625pt,224.375pt,187.625pt,225.125pt,187.625pt,225.75pt,187.625pt,226.5pt,187.625pt,227.25pt,187.625pt,227.875pt,187.625pt,228.625pt,187.625pt,229.375pt,187.625pt,230pt,187.625pt,230.75pt,187.625pt,231.5pt,187.625pt,232.125pt,187.625pt,232.875pt,187.625pt,233.625pt,187.625pt,234.25pt,187pt,235pt,187pt,235.75pt,187pt,236.375pt,187pt,237.125pt,187pt,237.875pt,187pt,238.5pt,187pt,239.25pt,187pt,240pt,187pt,240.625pt,187pt,241.375pt,187pt,242.125pt,187pt,242.75pt,187pt,243.5pt,187pt,244.25pt,187pt,244.875pt,187pt,245.625pt,187pt,246.375pt,187pt,247pt,187pt,247.75pt,187pt,248.5pt,187pt,249.125pt,187pt,249.875pt,187pt,250.625pt,187pt,251.25pt,187pt,252pt,187pt"
+   coordsize="720,48" filled="f" strokecolor="white" strokeweight="1.01425mm">
+   <v:stroke dashstyle="3 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154800" style='position:absolute'
+   points="252pt,187pt,252.75pt,187pt,253.375pt,187pt,254.125pt,187pt,254.875pt,187pt,255.5pt,187pt,256.25pt,187pt,257pt,186.375pt,257.625pt,186.375pt,258.375pt,186.375pt,259.125pt,186.375pt,259.75pt,186.375pt,260.5pt,186.375pt,261.25pt,186.375pt,261.875pt,186.375pt,262.625pt,186.375pt,263.375pt,186.375pt,264pt,186.375pt,264.75pt,186.375pt,265.5pt,186.375pt,266.25pt,186.375pt,266.875pt,186.375pt,267.625pt,186.375pt,268.375pt,186.375pt,269pt,186.375pt,269.75pt,186.375pt,270.5pt,186.375pt,271.125pt,186.375pt,271.875pt,186.375pt,272.625pt,186.375pt,273.25pt,186.375pt,274pt,186.375pt,274.75pt,186.375pt,275.375pt,186.375pt,276.125pt,186.375pt,276.875pt,186.375pt,277.5pt,186.375pt,278.25pt,186.375pt,279pt,186.375pt,279.625pt,186.375pt,280.375pt,186.375pt,281.125pt,186.375pt,281.75pt,186.375pt,282.5pt,186.375pt,283.25pt,186.375pt,283.875pt,186.375pt,284.625pt,186.375pt,285.375pt,186.375pt,286pt,186.375pt,286.75pt,186.375pt,287.5pt,186.375pt,288.125pt,186.375pt,288.875pt,186.375pt,289.625pt,186.375pt,290.25pt,186.375pt,291pt,186.375pt,291.75pt,186.375pt,292.375pt,187pt,293.125pt,187pt,293.875pt,187pt,294.5pt,187pt,295.25pt,187pt,296pt,187pt,296.625pt,187pt,297.375pt,187pt,298.125pt,187pt,298.75pt,187pt,299.5pt,187pt,300.25pt,187pt,300.875pt,187pt,301.625pt,187pt,302.375pt,187pt,303pt,187pt,303.75pt,187pt,304.5pt,187pt,305.125pt,187pt,305.875pt,187pt,306.625pt,187pt,307.25pt,187pt,308pt,187pt,308.75pt,187pt,309.375pt,187pt,310.125pt,187pt,310.875pt,187pt,311.5pt,187pt,312.25pt,187pt,313pt,187pt,313.625pt,187pt,314.375pt,187pt,315.125pt,187pt,315.75pt,187.625pt,316.5pt,187.625pt,317.25pt,187.625pt,317.875pt,187.625pt,318.625pt,187.625pt,319.375pt,187.625pt,320pt,187.625pt,320.75pt,187.625pt,321.5pt,187.625pt,322.125pt,187.625pt,322.875pt,187.625pt,323.625pt,187.625pt,324.25pt,187.625pt,325pt,187.625pt,325.75pt,187.625pt,326.375pt,187.625pt,327.125pt,187.625pt,327.875pt,187.625pt,328.5pt,187.625pt,329.25pt,188.375pt,330pt,188.375pt,330.625pt,188.375pt,331.375pt,188.375pt,332.125pt,188.375pt,332.75pt,188.375pt,333.5pt,188.375pt,334.25pt,188.375pt,334.875pt,188.375pt,335.625pt,188.375pt,336.375pt,188.375pt,337pt,188.375pt,337.75pt,188.375pt,338.5pt,188.375pt,339.125pt,188.375pt,339.875pt,189pt,340.625pt,189pt,341.25pt,189pt,342pt,189pt"
+   coordsize="720,21" filled="f" strokecolor="white" strokeweight="1.01425mm">
+   <v:stroke dashstyle="3 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154801" style='position:absolute'
+   points="342pt,189pt,342.75pt,189pt,343.375pt,189pt,344.125pt,189pt,344.875pt,189pt,345.5pt,189pt,346.25pt,189pt,347pt,189pt,347.625pt,189pt,348.375pt,189.625pt,349.125pt,189.625pt,349.75pt,189.625pt,350.5pt,189.625pt,351.25pt,189.625pt,351.875pt,189.625pt,352.625pt,189.625pt,353.375pt,189.625pt,354pt,189.625pt,354.75pt,189.625pt,355.5pt,189.625pt,356.125pt,189.625pt,356.875pt,190.375pt,357.625pt,190.375pt,358.25pt,190.375pt,359pt,190.375pt,359.75pt,190.375pt,360.375pt,190.375pt,361.125pt,190.375pt,361.875pt,190.375pt,362.5pt,190.375pt,363.25pt,190.375pt,364pt,191pt,364.625pt,191pt,365.375pt,191pt,366.125pt,191pt,366.875pt,191pt,367.5pt,191pt,368.25pt,191pt,369pt,191pt,369.625pt,191pt,370.375pt,191pt,371.125pt,191.625pt,371.75pt,191.625pt,372.5pt,191.625pt,373.25pt,191.625pt,373.875pt,191.625pt,374.625pt,191.625pt,375.375pt,191.625pt,376pt,191.625pt,376.75pt,191.625pt,377.5pt,191.625pt,378.125pt,191.625pt,378.875pt,192.375pt,379.625pt,192.375pt,380.25pt,192.375pt,381pt,192.375pt,381.75pt,192.375pt,382.375pt,192.375pt,383.125pt,192.375pt,383.875pt,192.375pt,384.5pt,192.375pt,385.25pt,192.375pt,386pt,192.375pt,386.625pt,192.375pt,387.375pt,193pt,388.125pt,193pt,388.75pt,193pt,389.5pt,193pt,390.25pt,193pt,390.875pt,193pt,391.625pt,193pt,392.375pt,193pt,393pt,193pt,393.75pt,193pt,394.5pt,193pt,395.125pt,193pt,395.875pt,193pt,396.625pt,193pt,397.25pt,193pt,398pt,193pt,398.75pt,193pt,399.375pt,192.375pt,400.125pt,192.375pt,400.875pt,192.375pt,401.5pt,192.375pt,402.25pt,192.375pt,403pt,192.375pt,403.625pt,192.375pt,404.375pt,191.625pt,405.125pt,191.625pt,405.75pt,191.625pt,406.5pt,191.625pt,407.25pt,191pt,407.875pt,191pt,408.625pt,191pt,409.375pt,190.375pt,410pt,190.375pt,410.75pt,189.625pt,411.5pt,189.625pt,412.125pt,189pt,412.875pt,189pt,413.625pt,188.375pt,414.25pt,188.375pt,415pt,187.625pt,415.75pt,187.625pt,416.375pt,187pt,417.125pt,187pt,417.875pt,186.375pt,418.5pt,186.375pt,419.25pt,186.375pt,420pt,187pt,420.625pt,187pt,421.375pt,187.625pt,422.125pt,189pt,422.75pt,189.625pt,422.75pt,190.375pt,423.5pt,191pt,423.5pt,192.375pt,424.25pt,193pt,424.25pt,194.375pt,424.875pt,195.625pt,424.875pt,197pt,425.625pt,198.25pt,425.625pt,199.625pt,426.375pt,201.625pt,426.375pt,203pt,427pt,205pt,427.75pt,206.25pt"
+   coordsize="686,159" filled="f" strokecolor="white" strokeweight="1.01425mm">
+   <v:stroke dashstyle="3 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline></p:shaperange>
+ <p:shaperange id="_x0000_s154802">
+  <v:polyline id="_x0000_s154802" style='position:absolute' points="427.75pt,206.25pt,427.75pt,208.25pt,428.5pt,210.25pt,428.5pt,212.25pt,429.125pt,214.25pt,429.125pt,216.25pt,429.875pt,218.25pt,429.875pt,220.25pt,430.625pt,222.25pt,430.625pt,224.25pt,431.25pt,226.25pt,431.25pt,228.25pt,6in,230.875pt,6in,232.875pt,432.75pt,234.875pt,432.75pt,236.875pt,433.375pt,239.5pt,433.375pt,241.5pt,434.125pt,243.5pt,434.125pt,246.125pt,434.875pt,248.125pt,434.875pt,250.75pt,435.5pt,252.75pt,435.5pt,255.5pt,436.25pt,257.5pt,436.25pt,260.125pt,437pt,262.125pt,437pt,264.75pt,437.625pt,267.375pt,437.625pt,269.375pt,438.375pt,272pt,438.375pt,274.75pt,439.125pt,277.375pt,439.125pt,280pt,439.75pt,282.75pt,440.5pt,285.375pt,440.5pt,4in,441.25pt,290.625pt,441.25pt,294pt,441.875pt,296.625pt,441.875pt,299.25pt,442.625pt,302.625pt,442.625pt,306pt,443.375pt,309.25pt,443.375pt,311.875pt,444pt,315.875pt,444pt,319.25pt,444.75pt,322.5pt,444.75pt,326.5pt,445.5pt,330.5pt,445.5pt,334.5pt,446.125pt,339.125pt,446.125pt,343.125pt,446.875pt,348.5pt,446.875pt,353.125pt,447.625pt,359.125pt,447.625pt,364.375pt,448.25pt,371.125pt,448.25pt,378.375pt,449pt,386.375pt,449pt,396.25pt,449.75pt,407.625pt,449.75pt,422.25pt,450.375pt,440.875pt"
+   coordsize="181,1877" filled="f" strokecolor="white" strokeweight="1.01425mm">
+   <v:stroke dashstyle="3 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline><v:polyline id="_x0000_s154803" style='position:absolute'
+   points="451.875pt,440.875pt,451.875pt,418.875pt,452.5pt,412.25pt,453.25pt,407.625pt,453.25pt,404.25pt,454pt,401.625pt,454pt,399.625pt,454.625pt,399pt,454.625pt,397.625pt,455.375pt,397.625pt,456.125pt,399pt,456.75pt,400.25pt,456.75pt,401.625pt,457.5pt,404.25pt,457.5pt,406.25pt,458.25pt,409.625pt,458.25pt,412.875pt,458.875pt,416.875pt,458.875pt,422.25pt,459.625pt,428.25pt,459.625pt,440.875pt"
+   coordsize="62,346" filled="f" strokecolor="white" strokeweight="1.01425mm">
+   <v:stroke dashstyle="3 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline></p:shaperange>
+ <p:shaperange id="_x0000_s154688">
+  <v:line id="_x0000_s154688" style='position:absolute' from="9.125pt,119.875pt"
+   to="710.375pt,119.875pt" strokecolor="red" strokeweight="2.25pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line></p:shaperange>
+ <p:shaperange id="_x0000_s154712">
+  <v:group id="_x0000_s154712" style='position:absolute;left:98.25pt;top:191.125pt;
+   width:220pt;height:67.75pt' coordorigin="786,1529" coordsize="1760,542">
+   <v:line id="_x0000_s154713" style='position:absolute;flip:x y' from="786,1769"
+    to="1096,1784" strokecolor="white" strokeweight="1.5pt">
+    <v:stroke endarrow="block"/>
+    <v:shadow color="#fc0 [2]"/>
+   </v:line><v:line id="_x0000_s154714" style='position:absolute' from="2059,1825"
+    to="2154,1931" strokecolor="white" strokeweight="1.5pt">
+    <v:stroke endarrow="block"/>
+    <v:shadow color="#fc0 [2]"/>
+   </v:line><v:shape id="_x0000_s154715" type="#_x0000_t202" style='position:absolute;
+    left:929;top:1529;width:614;height:542;mso-wrap-style:none;v-text-anchor:top-baseline'
+    filled="f" fillcolor="#0c9 [4]" stroked="f" strokecolor="yellow [1]">
+    <v:fill color2="#006 [0]"/>
+    <v:shadow color="#fc0 [2]"/>
+    <v:textbox style='mso-fit-shape-to-text:t'/>
+   </v:shape><v:shape id="_x0000_s154716" type="#_x0000_t202" style='position:absolute;
+    left:1864;top:1537;width:682;height:300;mso-wrap-style:none;
+    v-text-anchor:top-baseline' filled="f" fillcolor="#0c9 [4]" stroked="f"
+    strokecolor="yellow [1]">
+    <v:fill color2="#006 [0]"/>
+    <v:shadow color="#fc0 [2]"/>
+    <v:textbox style='mso-fit-shape-to-text:t'/>
+   </v:shape></v:group><v:rect id="_x0000_s154804" style='position:absolute;
+   left:54pt;top:33.375pt;width:612pt;height:90pt' filled="f" fillcolor="#0c9 [4]"
+   stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:rect></p:shaperange>
+</xml>

@@ -1,0 +1,12 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout><p:colorscheme
+  colors="#000066,#FFFF00,#FFCC00,#FFFF00,#00CC99,#3333CC,#CCCCFF,#B2B2B2"/>
+ <v:background id="_x0000_s1025" o:bwmode="white" fillcolor="#006 [0]"
+  o:targetscreensize="800,600">
+  <v:fill color2="fill darken(0)" method="linear sigma" type="gradient"/>
+ </v:background></xml>

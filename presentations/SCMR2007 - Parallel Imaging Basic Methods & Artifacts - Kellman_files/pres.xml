@@ -1,0 +1,77 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" notessizex="4373" notessizey="5786"
+  gridspacingx="49152" gridspacingy="49152" advisor="1024">
+  <p:master id="3" slidesn="0,0" type="main" href="master03.htm"
+   xmlhref="master03.xml" template="Default Design" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#0000ff,#ffffff,#000000,#ffff00,#ff9900,#00ffff,#ff0000,#969696"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#00cc99,#3333cc,#ccccff,#b2b2b2"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#333333,#000000,#dddddd,#808080,#4d4d4d,#eaeaea"/>
+    <p:colorscheme
+     colors="#ffffcc,#000000,#666633,#808000,#339933,#800000,#0033cc,#ffcc66"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#ffcc66,#0000ff,#cc00cc,#c0c0c0"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#c0c0c0,#0066ff,#ff0000,#009900"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#3399ff,#99ffcc,#cc00cc,#b2b2b2"/>
+    <p:colorscheme
+     colors="#000066,#ffff00,#ffcc00,#ffff00,#00cc99,#3333cc,#ccccff,#b2b2b2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" slidesn="1C2A053,FA9454F0" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C2A052,D4C3CF40" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="298" slidesn="0,0" href="slide0298.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="299" slidesn="0,0" href="slide0299.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="302" slidesn="0,0" href="slide0302.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="274" slidesn="0,0" href="slide0274.htm" xmlhref="slide0274.xml"/>
+  <p:slide id="275" slidesn="0,0" href="slide0275.htm"/>
+  <p:slide id="276" slidesn="0,0" href="slide0276.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="277" slidesn="0,0" href="slide0277.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="278" slidesn="0,0" href="slide0278.htm"/>
+  <p:slide id="279" slidesn="0,0" href="slide0279.htm"/>
+  <p:slide id="280" slidesn="0,0" href="slide0280.htm" xmlhref="slide0280.xml"/>
+  <p:slide id="281" slidesn="0,0" href="slide0281.htm"/>
+  <p:slide id="282" slidesn="0,0" href="slide0282.htm"/>
+  <p:slide id="283" slidesn="0,0" href="slide0283.htm"/>
+  <p:slide id="284" slidesn="0,0" href="slide0284.htm"/>
+  <p:slide id="285" slidesn="0,0" href="slide0285.htm"/>
+  <p:slide id="300" slidesn="0,0" href="slide0300.htm"/>
+  <p:slide id="297" slidesn="0,0" href="slide0297.htm" xmlhref="slide0297.xml"/>
+  <p:slide id="292" slidesn="0,0" href="slide0292.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="304" slidesn="0,0" href="slide0304.htm" layout="title_only"
+   slots="title"/>
+  <p:viewstate type="slideView" nosnaptogrid="t" restoredleft="177"
+   restoredtop="876" manualadjustleft="t" manualadjusttop="t"
+   hideoutlineicons="t"/>
+  <p:font name="Times New Roman" charset="0" type="6" family="18"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="굴림" charset="129" type="4"/>
+  <p:font name="Verdana" charset="0" type="6" family="34"/>
+  <p:font name="Symbol" charset="2" type="6" family="18"/>
+  <p:font name="Helvetica" charset="0" type="10" family="34"/>
+  <p:headersfooters formatid="0" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="700420">
+  <o:colormru v:ext="edit" colors="#9f6,#6f3,#039,#03c,#339,#006,white,#60f"/>
+  <o:colormenu v:ext="edit" fillcolor="none [1]" strokecolor="white"
+   shadowcolor="none"/>
+ </o:shapedefaults></xml>

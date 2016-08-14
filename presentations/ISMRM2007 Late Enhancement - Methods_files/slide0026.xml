@@ -1,0 +1,260 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="496"/>
+  <o:regrouptable v:ext="edit">
+   <o:entry new="1" old="0"/>
+  </o:regrouptable>
+ </o:shapelayout><p:shaperange id="_x0000_s507906">
+  <v:shape id="_x0000_s507906" type="#_x0000_m1026" style='position:absolute;
+   left:45.25pt;top:17.625pt;width:612pt;height:90pt'>
+   <v:fill o:detectmouseclick="f"/>
+   <v:stroke o:forcedash="f"/>
+   <o:lock v:ext="edit" text="f"/>
+   <p:placeholder type="title" position="-1" size="quarter"/>
+  </v:shape><v:rect id="_x0000_s507907" style='position:absolute;left:0;top:252.375pt;
+   width:10in;height:0;mso-wrap-style:none;v-text-anchor:middle' filled="f"
+   fillcolor="#0c9 [4]" stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:rect><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"
+   path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+  </v:shapetype><v:shape id="_x0000_s507908" type="#_x0000_t202" style='position:absolute;
+   left:74.125pt;top:118.25pt;width:552.25pt;height:123pt;mso-wrap-style:none;
+   v-text-anchor:top-baseline' filled="f" fillcolor="#0c9 [4]" strokecolor="white">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s507909">
+  <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+   o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s507909" type="#_x0000_t75" style='position:absolute;
+   left:417.75pt;top:314.25pt;width:201.75pt;height:69.25pt'>
+   <v:imagedata src="slide0026_image013.wmz" o:title=""/>
+  </v:shape><o:OLEObject Type="Embed" ProgID="Equation.DSMT4"
+   ShapeID="_x0000_s507909" DrawAspect="Content" ObjectID="210">
+   <p:oleclientdata subtype="equation" menuname="Equation"
+    clipboardname="MathType 5.0 Equation"/>
+  </o:OLEObject>
+ </p:shaperange>
+ <p:shaperange id="_x0000_s507911">
+  <v:line id="_x0000_s507911" style='position:absolute' from="103.5pt,289.125pt"
+   to="352.5pt,289.25pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:shape id="_x0000_s507912" style='position:absolute;left:103.5pt;top:289.125pt;
+   width:249pt;height:165.25pt' coordsize="434,343" o:regroupid="1" path="m,343r434,l434,e"
+   filled="f" strokecolor="white" strokeweight="0">
+   <v:path arrowok="t"/>
+  </v:shape><v:line id="_x0000_s507913" style='position:absolute;flip:y'
+   from="103.5pt,289.125pt" to="103.625pt,454.375pt" o:regroupid="1"
+   strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507914" style='position:absolute' from="103.5pt,454.375pt"
+   to="352.5pt,454.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507915" style='position:absolute;flip:y' from="103.5pt,289.125pt"
+   to="103.625pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507916" style='position:absolute;flip:y' from="103.5pt,452pt"
+   to="103.625pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507917" style='position:absolute' from="103.5pt,289.625pt"
+   to="103.625pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507918" style='position:absolute;left:101.75pt;top:455.875pt;
+   width:5.5pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507919" style='position:absolute;flip:y' from="128.125pt,452pt"
+   to="128.25pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507920" style='position:absolute' from="128.125pt,289.625pt"
+   to="128.25pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507921" style='position:absolute;left:122.875pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507922" style='position:absolute;flip:y' from="152.875pt,452pt"
+   to="153pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507923" style='position:absolute' from="152.875pt,289.625pt"
+   to="153pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507924" style='position:absolute;left:147.5pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507925" style='position:absolute;flip:y' from="178.125pt,452pt"
+   to="178.25pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507926" style='position:absolute' from="178.125pt,289.625pt"
+   to="178.25pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507927" style='position:absolute;left:172.875pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507928" style='position:absolute;flip:y' from="202.75pt,452pt"
+   to="202.875pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507929" style='position:absolute' from="202.75pt,289.625pt"
+   to="202.875pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507930" style='position:absolute;left:197.625pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507931" style='position:absolute;flip:y' from="228pt,452pt"
+   to="228.125pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507932" style='position:absolute' from="228pt,289.625pt"
+   to="228.125pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507933" style='position:absolute;left:222.875pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507934" style='position:absolute;flip:y' from="252.75pt,452pt"
+   to="252.75pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507935" style='position:absolute' from="252.75pt,289.625pt"
+   to="252.75pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507936" style='position:absolute;left:247.5pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507937" style='position:absolute;flip:y' from="277.375pt,452pt"
+   to="277.5pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507938" style='position:absolute' from="277.375pt,289.625pt"
+   to="277.5pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507939" style='position:absolute;left:272.25pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507940" style='position:absolute;flip:y' from="302.625pt,452pt"
+   to="302.75pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507941" style='position:absolute' from="302.625pt,289.625pt"
+   to="302.75pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507942" style='position:absolute;left:297.5pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507943" style='position:absolute;flip:y' from="327.375pt,452pt"
+   to="327.375pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507944" style='position:absolute' from="327.375pt,289.625pt"
+   to="327.375pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507945" style='position:absolute;left:322pt;top:455.875pt;
+   width:13.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507946" style='position:absolute;flip:y' from="352.5pt,452pt"
+   to="352.625pt,454.375pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507947" style='position:absolute' from="352.5pt,289.625pt"
+   to="352.625pt,291.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507948" style='position:absolute;left:350.875pt;top:455.875pt;
+   width:5.5pt;height:12pt;mso-wrap-style:none' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507949" style='position:absolute' from="103.5pt,454.375pt"
+   to="105.75pt,454.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507950" style='position:absolute;flip:x' from="349.75pt,454.375pt"
+   to="352.5pt,454.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507951" style='position:absolute;left:90.875pt;top:448pt;
+   width:7.25pt;height:12pt' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507952" style='position:absolute' from="103.5pt,426.875pt"
+   to="105.75pt,427pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507953" style='position:absolute;flip:x' from="349.75pt,426.875pt"
+   to="352.5pt,427pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507954" style='position:absolute;left:82.875pt;top:420.5pt;
+   width:21.625pt;height:12pt' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507955" style='position:absolute' from="103.5pt,399.5pt"
+   to="105.75pt,399.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507956" style='position:absolute;flip:x' from="349.75pt,399.5pt"
+   to="352.5pt,399.5pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507957" style='position:absolute;left:82.875pt;top:393.125pt;
+   width:21.625pt;height:12pt' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507958" style='position:absolute' from="103.5pt,372.125pt"
+   to="105.75pt,372.125pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507959" style='position:absolute;flip:x' from="349.75pt,372.125pt"
+   to="352.5pt,372.125pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507960" style='position:absolute;left:82.875pt;top:365.625pt;
+   width:21.625pt;height:12pt' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507961" style='position:absolute' from="103.5pt,344.5pt"
+   to="105.75pt,344.625pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507962" style='position:absolute;flip:x' from="349.75pt,344.5pt"
+   to="352.5pt,344.625pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507963" style='position:absolute;left:82.875pt;top:338.125pt;
+   width:21.625pt;height:12pt' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507964" style='position:absolute' from="103.5pt,317pt"
+   to="105.75pt,317.125pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507965" style='position:absolute;flip:x' from="349.75pt,317pt"
+   to="352.5pt,317.125pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507966" style='position:absolute;left:78.875pt;top:310.75pt;
+   width:28.75pt;height:12pt' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s507967" style='position:absolute' from="103.5pt,289.625pt"
+   to="105.75pt,289.75pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:line id="_x0000_s507968" style='position:absolute;flip:x' from="349.75pt,289.625pt"
+   to="352.5pt,289.75pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:rect id="_x0000_s507969" style='position:absolute;left:78.875pt;top:283.25pt;
+   width:25.75pt;height:12pt' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s507970">
+  <v:line id="_x0000_s507970" style='position:absolute' from="103.5pt,289.125pt"
+   to="352.5pt,289.25pt" o:regroupid="1" strokecolor="white" strokeweight="0"/>
+  <v:shape id="_x0000_s507971" style='position:absolute;left:103.5pt;top:289.125pt;
+   width:249pt;height:165.25pt' coordsize="434,343" o:regroupid="1" path="m,343r434,l434,e"
+   filled="f" strokecolor="white" strokeweight="0">
+   <v:path arrowok="t"/>
+  </v:shape><v:line id="_x0000_s507972" style='position:absolute;flip:y'
+   from="103.5pt,289.125pt" to="103.625pt,454.375pt" o:regroupid="1"
+   strokecolor="white" strokeweight="0"/>
+  <v:shape id="_x0000_s507973" style='position:absolute;left:103.5pt;top:337.375pt;
+   width:249.625pt;height:92.5pt' coordsize="2620,1148" o:regroupid="1" path="m,l24,54r24,48l72,150r24,42l126,227r24,42l174,305r24,30l229,365r24,30l277,425r24,24l331,473r24,23l379,520r24,24l433,562r24,24l482,604r24,18l536,640r24,18l584,670r24,18l638,700r24,18l686,730r24,12l741,753r24,12l789,777r24,12l843,801r24,12l891,825r24,6l939,843r30,6l994,861r24,6l1042,879r30,6l1096,897r24,6l1144,909r30,6l1198,927r24,6l1247,939r30,6l1301,951r24,6l1349,963r30,6l1403,975r24,6l1451,987r30,6l1505,999r25,6l1554,1011r30,l1608,1017r24,6l1656,1029r30,5l1710,1034r24,6l1758,1046r25,6l1813,1052r24,6l1861,1064r24,l1915,1070r24,l1963,1076r24,6l2017,1082r25,6l2066,1088r24,6l2120,1094r24,6l2168,1106r24,l2222,1112r24,l2270,1118r25,l2325,1118r24,6l2373,1124r24,6l2427,1130r24,6l2475,1136r24,6l2529,1142r25,l2578,1148r24,l2620,1148e"
+   filled="f" strokecolor="yellow" strokeweight="2.25pt">
+   <v:path arrowok="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s507974">
+  <v:rect id="_x0000_s507974" style='position:absolute;left:34.125pt;top:365.625pt;
+   width:62.75pt;height:16.75pt;rotation:270;mso-wrap-style:none' o:regroupid="1"
+   filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s507975">
+  <v:rect id="_x0000_s507975" style='position:absolute;left:134.5pt;top:470.5pt;
+   width:165.125pt;height:16.75pt;mso-wrap-style:none' o:regroupid="1"
+   filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s507976" style='position:absolute;left:102.375pt;
+   top:451.125pt;width:2.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1"
+   filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s507977" style='position:absolute;left:352pt;
+   top:285.75pt;width:2.75pt;height:12pt;mso-wrap-style:none' o:regroupid="1"
+   filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s507978" style='position:absolute;left:173.25pt;
+   top:377.125pt;width:86.5pt;height:16.75pt' o:regroupid="1" filled="f"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:shape id="_x0000_s507979" type="#_x0000_t202" style='position:absolute;
+   left:461.5pt;top:403.375pt;width:172.625pt;height:24pt' filled="f"
+   fillcolor="#0c9 [4]" stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape></p:shaperange>
+</xml>

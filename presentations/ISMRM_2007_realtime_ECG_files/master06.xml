@@ -1,0 +1,58 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="15000" effect="wipe" direction="down"
+  flag="1025"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1769"/>
+ </o:shapelayout><p:colorscheme
+  colors="#d0d3da,#000000,#ffffff,#949eaa,#afb4be,#ff9900,#336699,#990000"/>
+ <v:background id="_x0000_s1811457" o:bwmode="grayScale" fillcolor="#d0d3da [0]"/>
+ <p:shaperange id="_x0000_m1811458">
+  <v:shapetype id="_x0000_m1811458" style='position:absolute;left:42.5pt;top:111.875pt;
+   width:646.375pt;height:98.125pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#afb4be [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="#d0d3da [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox inset="0,0,0,0"/>
+   <p:placeholder type="centerTitle" size="quarter"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s1811461">
+  <v:group id="_x0000_s1811461" style='position:absolute;left:22.625pt;top:20.5pt;
+   width:697.375pt;height:76.625pt' coordorigin="181,164" coordsize="5579,613">
+   <v:rect id="_x0000_s1811462" style='position:absolute;left:181;top:164;
+    width:5579;height:613;mso-wrap-style:none;v-text-anchor:middle' o:bwmode="grayScale"
+    fillcolor="#feffff" stroked="f" strokecolor="white [2]">
+    <v:shadow color="white [2]"/>
+    <p:tag name="COLORSETCLASSNAME" type="string" value="ColorSet1"/>
+    <p:tag name="COLORS" type="string" value="White;White;-2;-2;-1"/>
+    <p:tag name="___PPTMAC11" type="binary" datasize="172" dataoffset="2"/>
+   </v:rect><v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+    o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+    <v:stroke joinstyle="miter"/>
+    <v:formulas>
+     <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+     <v:f eqn="sum @0 1 0"/>
+     <v:f eqn="sum 0 0 @1"/>
+     <v:f eqn="prod @2 1 2"/>
+     <v:f eqn="prod @3 21600 pixelWidth"/>
+     <v:f eqn="prod @3 21600 pixelHeight"/>
+     <v:f eqn="sum @0 0 1"/>
+     <v:f eqn="prod @6 1 2"/>
+     <v:f eqn="prod @7 21600 pixelWidth"/>
+     <v:f eqn="sum @8 21600 0"/>
+     <v:f eqn="prod @7 21600 pixelHeight"/>
+     <v:f eqn="sum @10 21600 0"/>
+    </v:formulas>
+    <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+    <o:lock v:ext="edit" aspectratio="t"/>
+   </v:shapetype><v:shape id="_x0000_s1811463" type="#_x0000_t75" style='position:absolute;
+    left:4536;top:267;width:1008;height:202' o:bwmode="grayScale" o:userdrawn="t">
+    <v:imagedata src="master05_image001.png" o:title="sie_logo_petrol_rgb_2"/>
+   </v:shape></v:group></p:shaperange>
+</xml>

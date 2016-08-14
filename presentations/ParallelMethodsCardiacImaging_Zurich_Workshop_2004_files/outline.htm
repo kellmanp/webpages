@@ -1,0 +1,762 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File
+href="../ParallelMethodsCardiacImaging_Zurich_Workshop_2004.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr
+	InitArray()
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		}
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+		if( obj.id.indexOf("PPTC") >= 0 )
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].SetEnabled()
+	gBtnArr["nb_nts"].SetFlag( parent.gHasNts )
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='position:absolute;display:none;width:70px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" align=center style='position:relative;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt'><img src="notes_flag.gif"
+ border=0 id="notes_flag" style='display:none'><span
+style='mso-spacerun:yes'>  </span>Notes</div>
+ <div title="Show/Hide Notes" id="nb_nts" style='position:absolute;top:0%;
+ left:0%;width:100%;height:100%'></div>
+ </td>
+</table>
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full
+Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl"
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0001.htm');" id=PPTL1>Parallel Methods for
+  Cardiac Imaging</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0185.htm');" id=PPTL2>Motivations</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0126.htm');" id=PPTL3>Cardiac Exam Protocol</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0168.htm');" id=PPTL4>TSENSE <br>
+    (simplified diagram)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0169.htm');" id=PPTL5>Sensitivity Map
+  Estimates<br>
+    (surface coil estimates)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0218.htm');" id=PPTL6>Rate 4 Acceleration</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0207.htm');" id=PPTL7>8-element cardiac
+  arrays<br>
+    Nova Medical</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0208.htm');" id=PPTL8>32-element cardiac
+  array<br>
+    MRI Devices Corporation</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>4 x 4 arrays anterior and posterior</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0209.htm');" id=PPTL9>32-element cardiac
+  array<br>
+    RAPID Biomedical</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0151.htm');" id=PPTL10>Short Axis Cine
+  Example<br>
+    192 x 160 trueFISP</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0152.htm');" id=PPTL11>Long Axis Cine
+  Example<br>
+    192 x 160 trueFISP</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL12>Short Axis Real-time
+  Example<br>
+    128 x 90 trueFISP</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0153.htm');" id=PPTL13>Long Axis Real-time
+  Example<br>
+    128 x 88 trueFISP</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0217.htm');" id=PPTL14>g-factor vs.
+  acceleration rate</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0197.htm');" id=PPTL15>2d SENSE</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0160.htm');" id=PPTL16>Single breath-hold 3D
+  cine function<br>
+    acceleration rate 8 using 32 channels</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0189.htm');" id=PPTL17>g-factor<br>
+    rate 4x2 =8 using 32 channels</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0212.htm');" id=PPTL18>Real time 3D
+  imaging<br>
+    acceleration rate 6x2=12 using 32 channels</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0214.htm');" id=PPTL19>g-factor<br>
+    rate 6x2 =12 using 32 channels</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0188.htm');" id=PPTL20>TrueFISP Tagging
+  Example</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0200.htm');" id=PPTL21>1<sup>st</sup> Pass
+  Perfusion Example<br>
+    trueFISP TSENSE Rate=2, free-breathing, 128x88 matrix</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0210.htm');" id=PPTL22>1<sup>st</sup> Pass
+  Perfusion Example<br>
+    GRE-EPI TSENSE Rate=2, 192x96 matrix</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0180.htm');" id=PPTL23>3D Saturation recovery</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0182.htm');" id=PPTL24>1<sup>st</sup> Pass 3D
+  Perfusion<br>
+    Saturation recovery TrueFISP, Rate 3x2=6</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0183.htm');" id=PPTL25>1<sup>st</sup> Pass
+  Images<br>
+    reformatted long axis views</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0176.htm');" id=PPTL26>CNR Comparison<br>
+    3d (rate 3x2=6) vs 2d multi-slice (rate 3)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0134.htm');" id=PPTL27>Cardiac Viability</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0122.htm');" id=PPTL28>Pulse Sequence<br>
+    PSIR TrueFISP example</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0119.htm');" id=PPTL29>Delayed
+  Enhancement<br>
+    (PSIR image reconstruction with SENSE)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0124.htm');" id=PPTL30>Free breathing
+  images<br>
+    (TrueFISP, R=2 SENSE acceleration)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0125.htm');" id=PPTL31>Motion Corrected
+  Averages</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0206.htm');" id=PPTL32>Summary</a></font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master03.htm></a><a href=master03.xml></a><a
+href=preview.wmf></a><a href=master02.htm></a><a href=pres.xml></a><a
+href=movie3403.avi></a><a href=slide0001.htm></a><a
+href="master03_background.gif"></a><a href="slide0001_image001.png"></a><a
+href="slide0001_image002.gif"></a><a href="slide0001_image003.png"></a><a
+href="slide0001_image004.gif"></a><a href=slide0185.htm></a><a
+href="slide0185_image005.gif"></a><a href="slide0185_image006.gif"></a><a
+href="slide0185_image007.gif"></a><a href="slide0185_image008.gif"></a><a
+href=slide0126.htm></a><a href="slide0126_image009.gif"></a><a
+href="slide0126_image010.gif"></a><a href="slide0126_image011.gif"></a><a
+href="slide0126_image012.png"></a><a href="slide0126_image013.jpg"></a><a
+href="slide0126_image014.gif"></a><a href="slide0126_image015.png"></a><a
+href=oledata.mso></a><a href="slide0126_image016.jpg"></a><a
+href="slide0126_image017.gif"></a><a href="slide0126_image018.png"></a><a
+href="slide0126_image019.jpg"></a><a href="slide0126_image020.wmz"></a><a
+href="slide0126_image021.gif"></a><a href=slide0168.htm></a><a
+href="slide0168_image022.wmz"></a><a href="slide0168_image023.gif"></a><a
+href="slide0168_image024.wmz"></a><a href="slide0168_image025.gif"></a><a
+href="slide0168_image026.gif"></a><a href="slide0168_image027.wmz"></a><a
+href="slide0168_image028.gif"></a><a href="slide0168_image029.png"></a><a
+href="slide0168_image030.jpg"></a><a href="slide0168_image031.gif"></a><a
+href="slide0168_image032.gif"></a><a href="slide0168_image033.gif"></a><a
+href="slide0168_image034.gif"></a><a href="slide0168_image035.gif"></a><a
+href="slide0168_image036.gif"></a><a href="slide0168_image037.gif"></a><a
+href="slide0168_image038.gif"></a><a href="slide0168_image039.gif"></a><a
+href="slide0168_image040.gif"></a><a href="slide0168_image041.gif"></a><a
+href="slide0168_image042.gif"></a><a href="slide0168_image043.gif"></a><a
+href="slide0168_image044.gif"></a><a href="slide0168_image045.wmz"></a><a
+href="slide0168_image046.gif"></a><a href="slide0168_image047.gif"></a><a
+href="slide0168_image048.gif"></a><a href="slide0168_image049.gif"></a><a
+href="slide0168_image050.gif"></a><a href="slide0168_image051.gif"></a><a
+href="slide0168_image052.gif"></a><a href="slide0168_image053.gif"></a><a
+href=slide0169.htm></a><a href="slide0169_image054.png"></a><a
+href="slide0169_image055.jpg"></a><a href="slide0169_image056.gif"></a><a
+href="slide0169_image057.gif"></a><a href=slide0218.htm></a><a
+href="slide0218_image058.gif"></a><a href="slide0218_image059.gif"></a><a
+href="slide0218_image060.png"></a><a href="slide0218_image061.jpg"></a><a
+href=slide0207.htm></a><a href="slide0207_image062.wmz"></a><a
+href="slide0207_image063.gif"></a><a href="slide0207_image064.wmz"></a><a
+href="slide0207_image065.gif"></a><a href="slide0207_image066.gif"></a><a
+href="slide0207_image067.gif"></a><a href="slide0207_image068.jpg"></a><a
+href="slide0207_image069.jpg"></a><a href="slide0207_image070.jpg"></a><a
+href="slide0207_image071.jpg"></a><a href=slide0208.htm></a><a
+href="slide0208_image072.jpg"></a><a href="slide0208_image073.jpg"></a><a
+href="slide0208_image074.jpg"></a><a href="slide0208_image075.jpg"></a><a
+href="slide0208_image076.gif"></a><a href=slide0209.htm></a><a
+href="slide0209_image077.png"></a><a href="slide0209_image078.jpg"></a><a
+href="slide0209_image079.png"></a><a href="slide0209_image080.jpg"></a><a
+href="slide0209_image081.gif"></a><a href=slide0151.htm></a><a
+href="slide0151_image082.png"></a><a href="slide0151_image083.jpg"></a><a
+href="slide0151_image084.gif"></a><a href=slide0152.htm></a><a
+href="slide0152_image085.png"></a><a href="slide0152_image086.jpg"></a><a
+href="slide0152_image087.gif"></a><a href=slide0002.htm></a><a
+href="slide0002_image088.gif"></a><a href="slide0002_image089.png"></a><a
+href="slide0002_image090.jpg"></a><a href=slide0153.htm></a><a
+href="slide0153_image091.gif"></a><a href="slide0153_image092.png"></a><a
+href="slide0153_image093.jpg"></a><a href="slide0153_image094.png"></a><a
+href="slide0153_image095.jpg"></a><a href="slide0153_image096.png"></a><a
+href="slide0153_image097.jpg"></a><a href=slide0217.htm></a><a
+href="slide0217_image098.wmz"></a><a href="slide0217_image099.gif"></a><a
+href="slide0217_image100.wmz"></a><a href="slide0217_image101.gif"></a><a
+href="slide0217_image102.gif"></a><a href="slide0217_image103.png"></a><a
+href="slide0217_image104.jpg"></a><a href=slide0197.htm></a><a
+href="slide0197_image105.gif"></a><a href="slide0197_image106.gif"></a><a
+href="slide0197_image107.gif"></a><a href="slide0197_image108.gif"></a><a
+href="slide0197_image109.gif"></a><a href="slide0197_image110.png"></a><a
+href="slide0197_image111.jpg"></a><a href="slide0197_image112.gif"></a><a
+href="slide0197_image113.gif"></a><a href="slide0197_image114.gif"></a><a
+href="slide0197_image115.gif"></a><a href=slide0160.htm></a><a
+href="slide0160_image116.gif"></a><a href="slide0160_image117.png"></a><a
+href="slide0160_image118.jpg"></a><a href=slide0189.htm></a><a
+href="slide0189_image119.gif"></a><a href="slide0189_image120.wmz"></a><a
+href="slide0189_image121.gif"></a><a href=slide0212.htm></a><a
+href="slide0212_image122.png"></a><a href="slide0212_image123.jpg"></a><a
+href="slide0212_image124.gif"></a><a href=slide0214.htm></a><a
+href=slide0214.xml></a><a href="slide0214_image125.gif"></a><a
+href="slide0214_image126.gif"></a><a href="slide0214_image127.gif"></a><a
+href=slide0188.htm></a><a href="slide0188_image128.png"></a><a
+href="slide0188_image129.jpg"></a><a href="slide0188_image130.gif"></a><a
+href=slide0200.htm></a><a href="slide0200_image131.gif"></a><a
+href="slide0200_image132.png"></a><a href="slide0200_image133.jpg"></a><a
+href="slide0200_image134.gif"></a><a href=slide0210.htm></a><a
+href="slide0210_image135.png"></a><a href="slide0210_image136.jpg"></a><a
+href="slide0210_image137.png"></a><a href="slide0210_image138.jpg"></a><a
+href="slide0210_image139.gif"></a><a href="slide0210_image140.gif"></a><a
+href=slide0180.htm></a><a href=slide0180.xml></a><a
+href="slide0180_image141.gif"></a><a href="slide0180_image142.wmz"></a><a
+href="slide0180_image143.gif"></a><a href="slide0180_image144.gif"></a><a
+href=slide0182.htm></a><a href="slide0182_image145.png"></a><a
+href="slide0182_image146.jpg"></a><a href="slide0182_image147.gif"></a><a
+href=slide0183.htm></a><a href="slide0183_image148.gif"></a><a
+href="slide0183_image149.png"></a><a href="slide0183_image150.jpg"></a><a
+href=slide0176.htm></a><a href="slide0176_image151.gif"></a><a
+href="slide0176_image152.wmz"></a><a href="slide0176_image153.gif"></a><a
+href="slide0176_image154.wmz"></a><a href="slide0176_image155.gif"></a><a
+href=slide0134.htm></a><a href="slide0134_image156.png"></a><a
+href="slide0134_image157.jpg"></a><a href="slide0134_image158.jpg"></a><a
+href="slide0134_image159.gif"></a><a href=slide0122.htm></a><a
+href=slide0122.xml></a><a href="slide0122_image160.gif"></a><a
+href="slide0122_image161.gif"></a><a href="slide0122_image162.wmz"></a><a
+href="slide0122_image163.gif"></a><a href="slide0122_image164.gif"></a><a
+href="slide0122_image165.gif"></a><a href="slide0122_image166.gif"></a><a
+href="slide0122_image167.gif"></a><a href="slide0122_image168.gif"></a><a
+href=slide0119.htm></a><a href=slide0119.xml></a><a
+href="slide0119_image169.wmz"></a><a href="slide0119_image170.png"></a><a
+href="slide0119_image171.gif"></a><a href=slide0124.htm></a><a
+href="slide0124_image172.gif"></a><a href="slide0124_image173.png"></a><a
+href="slide0124_image174.jpg"></a><a href=slide0125.htm></a><a
+href="slide0125_image175.png"></a><a href="slide0125_image176.png"></a><a
+href="slide0125_image177.png"></a><a href="slide0125_image178.gif"></a><a
+href=slide0206.htm></a><a href="slide0206_image179.png"></a><a
+href="slide0206_image180.jpg"></a><a href="slide0206_image181.gif"></a><a
+href=master01.htm></a><a href="master03_stylesheet.css"></a><a
+href=font008.eot></a><a href=font009.eot></a><a href=font010.eot></a><a
+href=font011.eot></a><a href=font016.eot></a><a href=font017.eot></a><a
+href=font018.eot></a><a href=font019.eot></a><a href=script.js></a><a
+href="../ParallelMethodsCardiacImaging_Zurich_Workshop_2004.htm"></a><a
+href=fullscreen.htm></a><a href=buttons.gif></a><a href=frame.htm></a><a
+href=outline.htm></a></div>
+
+</body>
+
+</html>

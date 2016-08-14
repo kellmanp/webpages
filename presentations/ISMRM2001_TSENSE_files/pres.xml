@@ -1,0 +1,73 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" notessizex="4373" notessizey="5786"
+  gridspacingx="49152" gridspacingy="49152" hidecomments="t" advisor="1024">
+  <p:master id="3" slidesn="0,0" type="main" href="master03.htm"
+   xmlhref="master03.xml" template="Default Design" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#0000FF,#FFFFFF,#000000,#FFFF00,#FF9900,#00FFFF,#FF0000,#969696"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#00CC99,#3333CC,#CCCCFF,#B2B2B2"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#333333,#000000,#DDDDDD,#808080,#4D4D4D,#EAEAEA"/>
+    <p:colorscheme
+     colors="#FFFFCC,#000000,#666633,#808000,#339933,#800000,#0033CC,#FFCC66"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#FFCC66,#0000FF,#CC00CC,#C0C0C0"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#C0C0C0,#0066FF,#FF0000,#009900"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#3399FF,#99FFCC,#CC00CC,#B2B2B2"/>
+    <p:colorscheme
+     colors="#000066,#FFFF00,#FFCC00,#FFFF00,#00CC99,#3333CC,#CCCCFF,#B2B2B2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" slidesn="1C19846,B43CA310" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C19846,B4B0E8B0" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="1" slidesn="0,0" href="slide0001.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle"/>
+  <p:slide id="72" slidesn="0,0" href="slide0072.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="82" slidesn="0,0" href="slide0082.htm" layout="title_body"
+   slots="title,object"/>
+  <p:slide id="53" slidesn="0,0" href="slide0053.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="56" slidesn="0,0" href="slide0056.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="100" slidesn="0,0" href="slide0100.htm" xmlhref="slide0100.xml"
+   layout="title_only" slots="title"/>
+  <p:slide id="104" slidesn="0,0" href="slide0104.htm" xmlhref="slide0104.xml"
+   layout="title_only" slots="title"/>
+  <p:slide id="101" slidesn="0,0" href="slide0101.htm" xmlhref="slide0101.xml"
+   layout="title_only" slots="title"/>
+  <p:slide id="102" slidesn="0,0" href="slide0102.htm" xmlhref="slide0102.xml"
+   layout="title_only" slots="title"/>
+  <p:slide id="103" slidesn="0,0" href="slide0103.htm" xmlhref="slide0103.xml"
+   layout="title_only" slots="title"/>
+  <p:slide id="59" slidesn="0,0" href="slide0059.htm" xmlhref="slide0059.xml"
+   layout="title_only" slots="title"/>
+  <p:slide id="85" slidesn="0,0" href="slide0085.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="7" slidesn="0,0" href="slide0007.htm" layout="title_only"
+   slots="title"/>
+  <p:viewstate type="slideView" nosnaptogrid="t" restoredleft="156"
+   restoredtop="945" manualadjustleft="t" manualadjusttop="t"
+   hideoutlineicons="t"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Symbol" charset="2" type="4" family="18"/>
+  <p:font name="Helvetica" charset="0" type="10" family="34"/>
+  <p:headersfooters formatid="0" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t" formatid="0"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="171014">
+  <o:colormru v:ext="edit" colors="#f9f,#f6f,#6f6,white,purple,black,#9cf,#60f"/>
+  <o:colormenu v:ext="edit" fillcolor="none" strokecolor="white" shadowcolor="none"/>
+ </o:shapedefaults></xml>

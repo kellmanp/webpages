@@ -1,0 +1,849 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+xmlns:oa="urn:schemas-microsoft-com:office:activation"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../ISMRM2001_TSENSE.htm">
+<link rel=Preview href=preview.wmf>
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+p\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+v\:textbox {display:none;}
+</style>
+<![endif]-->
+<title>Adaptive Sensitivity Encoding Incorporating Temporal Filtering (TSENSE) </title>
+<meta name=Description content="1/8/2002: TSENSE  (simplified diagram)">
+<link rel=Stylesheet href="master03_stylesheet.css">
+<!--[if gte IE 5]>
+<object id=MSOANIM classid="CLSID:A4639D2F-774E-11D3-A490-00C04F6843FB"></object>
+<object id=MSOTIME classid="CLSID:A4639D29-774E-11D3-A490-00C04F6843FB"></object>
+<![endif]-->
+<![if !ppt]>
+<style media=print>
+<!--.sld
+	{left:0px !important;
+	width:6.0in !important;
+	height:4.5in !important;
+	font-size:107% !important;}
+-->
+</style>
+<style>
+<!--
+oa\:* { BEHAVIOR: url(#MSOANIM#ANIM) url(#MSOTIME#TIME) }
+oa\:par,oa\:seq,oa\:iterate { BEHAVIOR:url(#MSOTIME) }
+oa\:video,oa\:audio {BEHAVIOR:url(#MSOTIME) url(#MSOTIME#MEDIA) }
+-->
+</style>
+<script src=script.js></script><script><!--
+if( !IsNts() ) Redirect( "PPTSld" );
+//--></script><script><!--
+g_animItemsToHide=new Array("_x0000_s100415","_x0000_s100413","_x0000_s100412","_x0000_s100403_AllText","_x0000_s100403","_x0000_s100411","_x0000_s100404_AllText","_x0000_s100404","_x0000_s100410","_x0000_s100354");
+g_animInteractiveItems=new Array("_x0000_s100354","_x0000_s100410","_x0000_s100411","_x0000_s100412","_x0000_s100413");
+
+//--></script><!--[if vml]><script>g_vml = 1;
+</script><![endif]--><![endif]><o:shapelayout v:ext="edit">
+ <o:idmap v:ext="edit" data="98"/>
+ <o:regrouptable v:ext="edit">
+  <o:entry new="1" old="0"/>
+  <o:entry new="2" old="0"/>
+ </o:regrouptable>
+</o:shapelayout>
+</head>
+
+<body lang=EN-US style='margin:0px;background-color:black'
+onclick="DocumentOnClick()" onresize="_RSW()" onload="LoadSld()"
+onkeypress="_KPH()" oa:clockstart="onstart">
+
+<div id=SlideObj class=sld style='position:absolute;top:0px;left:0px;
+width:534px;height:400px;font-size:16px;background-color:#000066;clip:rect(0%, 101%, 101%, 0%);
+visibility:hidden'><p:slide coordsize="720,540"
+ colors="#000066,#FFFF00,#FFCC00,#FFFF00,#00CC99,#3333CC,#CCCCFF,#B2B2B2"
+ masterhref="master03.xml">
+ <p:shaperange href="master03.xml#_x0000_s1025"/><![if !vml]><img
+ src="master03_background.gif" v:shapes="_x0000_s1025" style='position:absolute;
+ top:0%;left:0%;width:100.0%;height:100.0%'><![endif]><v:shapetype id="_x0000_t75"
+  coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+  filled="f" stroked="f">
+  <v:stroke joinstyle="miter"/>
+  <v:formulas>
+   <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+   <v:f eqn="sum @0 1 0"/>
+   <v:f eqn="sum 0 0 @1"/>
+   <v:f eqn="prod @2 1 2"/>
+   <v:f eqn="prod @3 21600 pixelWidth"/>
+   <v:f eqn="prod @3 21600 pixelHeight"/>
+   <v:f eqn="sum @0 0 1"/>
+   <v:f eqn="prod @6 1 2"/>
+   <v:f eqn="prod @7 21600 pixelWidth"/>
+   <v:f eqn="sum @8 21600 0"/>
+   <v:f eqn="prod @7 21600 pixelHeight"/>
+   <v:f eqn="sum @10 21600 0"/>
+  </v:formulas>
+  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:shapetype><v:shape id="_x0000_s100354" type="#_x0000_t75" style='position:absolute;
+  left:109.125pt;top:332.25pt;width:80.25pt;height:1in'>
+  <v:fill o:detectmouseclick="t"/>
+  <v:imagedata src="slide0082_image005.png" o:title=""/>
+  <o:lock v:ext="edit" rotation="t"/>
+  <p:animation number="2" delay="0" type="object" effect="cut"
+   direction="noBlack" slidecount="0" flag="1284"/><p:onmouseclick
+   action="playMedia"/><p:media type="avi" loops="t"
+   href="file:///D:\presentations\ISMRM01\kellman_445_tsense\test\kellman_445_1.avi"/></v:shape><![if !ppt]>
+ <div id=S1 onclick="window.event.cancelBubble=true;" style='position:absolute;
+ top:61.5%;left:15.16%;width:11.23%;height:13.5%;cursor:hand;visibility:hidden'><![endif]><![if !ppt]><object
+  id=S1Movie classid="CLSID:05589FA1-C356-11CE-BF01-00AA0055595A"
+  style='visibility:hidden;position:absolute;top:0%;left:0%;width:100.0%;
+  height:100.0%'>
+  <param name=AutoStart value=0>
+  <param name=ShowDisplay value=0>
+  <param name=ShowControls value=0>
+  <param name=BorderStyle value=0>
+  <param name=AutoRewind value=0>
+  <param name=PlayCount value=0>
+  <param name=FileName value=movie1535.avi>
+ </object><script for=S1 event=onclick language=javascript><!--
+	if (!g_animUseRuntime) { 
+		PlayMedia('S1Movie');
+		self.focus();
+		window.event.cancelBubble = true;
+	}
+
+//--></script><script for=S1Movie event="StateChange( oldState, newState )"
+ language=javascript><!--
+	if( newState == 0 ) 
+		StopMedia('S1Movie');
+
+//--></script><![endif]><![if !vml]><img border=0 v:shapes="_x0000_s100354"
+ src="slide0082_image006.jpg" style='position:absolute;top:0%;left:0%;
+ width:100.0%;height:98.14%;cursor:hand'><![endif]><![if !ppt]></div>
+ <![endif]><v:rect id="_x0000_s100355" style='position:absolute;left:36pt;
+  top:21.625pt;width:9in;height:90pt' filled="f">
+  <p:placeholder type="title"/></v:rect><![if !vml]><img border=0
+ v:shapes="_x0000_s100355" src="slide0082_image007.gif" style='position:absolute;
+ top:4.0%;left:4.86%;width:90.44%;height:17.25%'><![endif]>
+ <div v:shape="_x0000_s100355" class=T><span style='position:absolute;
+ top:5.25%;left:5.99%;width:88.01%;height:9.25%'>TSENSE <br>
+  </span><span style='position:absolute;top:15.0%;left:5.99%;width:88.01%;
+ height:6.75%'><span style='font-size:73%'>(simplified diagram)</span></span></div>
+ <v:rect id="_x0000_s100356" style='position:absolute;left:214.5pt;top:334.125pt;
+  width:74.875pt;height:67pt;mso-wrap-style:none;v-text-anchor:middle'
+  filled="f" fillcolor="#0c9" strokecolor="yellow [1]"/>
+ <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+  <v:stroke joinstyle="miter"/>
+  <v:path gradientshapeok="t" o:connecttype="rect"/>
+ </v:shapetype><v:shape id="_x0000_s100357" type="#_x0000_t202" style='position:absolute;
+  left:29.25pt;top:312pt;width:85.875pt;height:103.5pt;mso-wrap-style:none;
+  v-text-anchor:top-baseline' filled="f" fillcolor="#0c9" stroked="f">
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+ </v:shape><v:shape id="_x0000_s100358" type="#_x0000_t202" style='position:absolute;
+  left:231.125pt;top:353.5pt;width:44.625pt;height:26.5pt;mso-wrap-style:none;
+  v-text-anchor:top-baseline' filled="f" fillcolor="#0c9" stroked="f">
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+ </v:shape><v:shape id="_x0000_s100359" type="#_x0000_t202" style='position:absolute;
+  left:343.375pt;top:333.625pt;width:79.5pt;height:65pt' filled="f"
+  fillcolor="#0c9" stroked="f">
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+ </v:shape><v:rect id="_x0000_s100360" style='position:absolute;left:461.375pt;
+  top:335.375pt;width:109.5pt;height:67pt;mso-wrap-style:none;v-text-anchor:middle'
+  filled="f" fillcolor="#0c9" strokecolor="yellow [1]"/>
+ <![if !vml]><img border=0 v:shapes="_x0000_s100356,_x0000_s100360"
+ src="slide0082_image008.gif" style='position:absolute;top:61.75%;left:29.77%;
+ width:50.0%;height:13.25%'><![endif]>
+ <div v:shape="_x0000_s100357" class=O>
+ <div style='text-align:center;position:absolute;top:58.75%;left:4.68%;
+ width:10.67%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%'>multi-coil&#13;</span></div>
+ <div style='text-align:center;position:absolute;top:62.25%;left:5.05%;
+ width:10.11%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%'>time&#13;</span></div>
+ <div style='text-align:center;position:absolute;top:65.75%;left:4.11%;
+ width:12.17%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%'>interleaved&#13;</span></div>
+ <div style='text-align:center;mso-char-wrap:0;mso-kinsoku-overflow:0;
+ position:absolute;top:69.5%;left:5.05%;width:10.11%;height:3.5%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:67%'>k-space&#13;</span></div>
+ <div style='text-align:center;mso-char-wrap:0;mso-kinsoku-overflow:0;
+ position:absolute;top:73.0%;left:5.05%;width:10.11%;height:3.5%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:67%'>data</span><span
+ style='font-size:133%;mso-special-format:lastCR;display:none'><b>&#13;</b></span></div>
+ </div>
+ <div v:shape="_x0000_s100358" class=O style='text-align:center;position:absolute;
+ top:66.25%;left:32.58%;width:5.24%;height:3.5%'><span style='mso-bidi-font-family:
+ "Times New Roman";font-size:67%'><b>FFT</b></span><span style='font-size:133%;
+ mso-special-format:lastCR;display:none'><b>&#13;</b></span></div>
+ <div v:shape="_x0000_s100359" class=O>
+ <div style='text-align:center;position:absolute;top:62.75%;left:48.68%;
+ width:9.17%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%'><b>array&#13;</b></span></div>
+ <div style='text-align:center;position:absolute;top:66.25%;left:47.75%;
+ width:11.04%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%'><b>combiner&#13;</b></span></div>
+ <div style='text-align:center;mso-char-wrap:0;mso-kinsoku-overflow:0;
+ position:absolute;top:69.75%;left:48.12%;width:10.48%;height:3.5%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:67%'><b>(SENSE)</b></span><span
+ style='font-size:133%;mso-special-format:lastCR;display:none'><b>&#13;</b></span></div>
+ </div>
+ <v:rect id="_x0000_s100361" style='position:absolute;left:328.5pt;top:335.75pt;
+  width:109.625pt;height:67pt;mso-wrap-style:none;v-text-anchor:middle'
+  filled="f" fillcolor="#0c9" strokecolor="yellow [1]"/>
+ <v:line id="_x0000_s100362" style='position:absolute' from="439pt,370pt" to="460.125pt,370pt"
+  strokecolor="yellow [1]">
+  <v:stroke endarrow="block"/>
+ </v:line><v:line id="_x0000_s100363" style='position:absolute' from="306.875pt,367pt"
+  to="328pt,367pt" strokecolor="yellow [1]">
+  <v:stroke endarrow="block"/>
+ </v:line><v:line id="_x0000_s100364" style='position:absolute' from="191.5pt,368.375pt"
+  to="212.75pt,368.375pt" strokecolor="yellow [1]">
+  <v:stroke endarrow="block"/>
+ </v:line><v:line id="_x0000_s100365" style='position:absolute' from="289.875pt,367.375pt"
+  to="306.125pt,367.375pt" strokecolor="yellow [1]"/>
+ <v:line id="_x0000_s100366" style='position:absolute' from="572.875pt,369.25pt"
+  to="594pt,369.25pt" strokecolor="yellow [1]">
+  <v:stroke endarrow="block"/>
+ </v:line><![if !vml]><img border=0
+ v:shapes="_x0000_s100361,_x0000_s100362,_x0000_s100363,_x0000_s100364,_x0000_s100365,_x0000_s100366"
+ src="slide0082_image009.gif" style='position:absolute;top:62.0%;left:26.59%;
+ width:56.36%;height:13.0%'><![endif]><v:line id="_x0000_s100367" style='position:absolute'
+  from="9.125pt,119.875pt" to="710.375pt,119.875pt" strokecolor="red"
+  strokeweight="2.25pt">
+  <v:shadow color="#fc0 [2]"/>
+ </v:line><v:shape id="_x0000_s100368" type="#_x0000_t202" style='position:absolute;
+  left:457.5pt;top:332pt;width:117.375pt;height:45.75pt' filled="f"
+  fillcolor="#0c9" stroked="f">
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+ </v:shape><![if !vml]><img border=0 v:shapes="_x0000_s100367"
+ src="slide0082_image010.gif" style='position:absolute;top:22.0%;left:1.12%;
+ width:97.94%;height:.75%'><![endif]>
+ <div v:shape="_x0000_s100368" class=O>
+ <div style='text-align:center;position:absolute;top:62.5%;left:64.6%;
+ width:14.41%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%'><b>temporal&#13;</b></span></div>
+ <div style='text-align:center;mso-char-wrap:0;mso-kinsoku-overflow:0;
+ position:absolute;top:66.0%;left:64.04%;width:15.35%;height:3.5%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:67%'><b>lowpass filter</b></span><span
+ style='font-size:133%;mso-special-format:lastCR;display:none'><b>&#13;</b></span></div>
+ </div>
+ <v:line id="_x0000_s100369" style='position:absolute' from="480pt,398.25pt"
+  to="553.125pt,398.25pt" strokecolor="yellow [1]">
+  <v:stroke endarrow="block" endarrowwidth="narrow" endarrowlength="short"/>
+  <v:shadow color="#fc0 [2]"/>
+ </v:line><v:rect id="_x0000_s100370" style='position:absolute;left:480.75pt;
+  top:381.75pt;width:64.5pt;height:16.5pt;mso-wrap-style:none;v-text-anchor:middle'
+  filled="f" fillcolor="#0c9 [4]" strokecolor="yellow [1]">
+  <v:fill color2="#006 [0]"/>
+  <v:stroke dashstyle="1 1"/>
+  <v:shadow color="#fc0 [2]"/>
+ </v:rect><v:line id="_x0000_s100371" style='position:absolute;flip:y' from="480.75pt,372.75pt"
+  to="480.75pt,398.25pt" strokecolor="yellow [1]">
+  <v:stroke endarrow="block" endarrowwidth="narrow" endarrowlength="short"/>
+  <v:shadow color="#fc0 [2]"/>
+ </v:line><v:line id="_x0000_s100372" style='position:absolute' from="480.75pt,381.75pt"
+  to="534.75pt,381.75pt" strokecolor="yellow [1]" strokeweight="2.25pt">
+  <v:shadow color="#fc0 [2]"/>
+ </v:line><v:line id="_x0000_s100373" style='position:absolute' from="534.75pt,381.375pt"
+  to="544.5pt,397.875pt" strokecolor="yellow [1]" strokeweight="2.25pt">
+  <v:shadow color="#fc0 [2]"/>
+ </v:line><v:group id="_x0000_s100374" style='position:absolute;left:306.125pt;
+  top:216.5pt;width:285.25pt;height:149.875pt' coordorigin="2449,1744"
+  coordsize="2282,1199">
+  <v:shape id="_x0000_s100375" type="#_x0000_t202" style='position:absolute;
+   left:3753;top:1836;width:730;height:366;mso-wrap-style:none;v-text-anchor:top-baseline'
+   filled="f" fillcolor="#0c9" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shape id="_x0000_s100376" type="#_x0000_t202" style='position:absolute;
+   left:2610;top:1744;width:939;height:366' filled="f" fillcolor="#0c9"
+   stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:rect id="_x0000_s100377" style='position:absolute;left:3691;
+   top:1773;width:876;height:536;mso-wrap-style:none;v-text-anchor:middle'
+   filled="f" fillcolor="#0c9" strokecolor="white"/>
+  <v:rect id="_x0000_s100378" style='position:absolute;left:2628;top:1776;
+   width:877;height:536;mso-wrap-style:none;v-text-anchor:middle' filled="f"
+   fillcolor="#0c9" strokecolor="white"/>
+  <v:line id="_x0000_s100379" style='position:absolute' from="3510,2048" to="3680,2048"
+   strokecolor="white">
+   <v:stroke endarrow="block"/>
+  </v:line><v:line id="_x0000_s100380" style='position:absolute' from="2453,2024"
+   to="2623,2024" strokecolor="white">
+   <v:stroke endarrow="block"/>
+  </v:line><v:line id="_x0000_s100381" style='position:absolute' from="2449,2024"
+   to="2449,2943" strokecolor="white"/>
+  <v:line id="_x0000_s100382" style='position:absolute;rotation:90' from="2964,2582"
+   to="3158,2582" strokecolor="white">
+   <v:stroke endarrow="block"/>
+  </v:line><v:line id="_x0000_s100383" style='position:absolute' from="3064,2480"
+   to="4724,2480" strokecolor="white"/>
+  <v:line id="_x0000_s100384" style='position:absolute;flip:y' from="4731,2048"
+   to="4731,2480" strokecolor="white"/>
+  <v:line id="_x0000_s100385" style='position:absolute' from="4578,2038" to="4731,2038"
+   strokecolor="white"/>
+  <v:line id="_x0000_s100386" style='position:absolute' from="2805,2274" to="3390,2274"
+   strokecolor="white">
+   <v:stroke endarrow="block" endarrowwidth="narrow" endarrowlength="short"/>
+   <v:shadow color="#fc0 [2]"/>
+  </v:line><v:rect id="_x0000_s100387" style='position:absolute;left:2811;
+   top:2142;width:516;height:132;mso-wrap-style:none;v-text-anchor:middle'
+   filled="f" fillcolor="#0c9 [4]" strokecolor="white">
+   <v:fill color2="#006 [0]"/>
+   <v:stroke dashstyle="1 1"/>
+   <v:shadow color="#fc0 [2]"/>
+  </v:rect><v:line id="_x0000_s100388" style='position:absolute;flip:y' from="2811,2070"
+   to="2811,2274" strokecolor="white">
+   <v:stroke endarrow="block" endarrowwidth="narrow" endarrowlength="short"/>
+   <v:shadow color="#fc0 [2]"/>
+  </v:line><v:line id="_x0000_s100389" style='position:absolute' from="2811,2142"
+   to="2952,2142" strokecolor="white" strokeweight="2.25pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line><v:line id="_x0000_s100390" style='position:absolute' from="2949,2139"
+   to="3027,2271" strokecolor="white" strokeweight="2.25pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line></v:group><![if !vml]><img border=0
+ v:shapes="_x0000_s100369,_x0000_s100370,_x0000_s100371,_x0000_s100372,_x0000_s100373,_x0000_s100374,_x0000_s100375,_x0000_s100376,_x0000_s100377,_x0000_s100378,_x0000_s100379,_x0000_s100380,_x0000_s100381,_x0000_s100382,_x0000_s100383,_x0000_s100384,_x0000_s100385,_x0000_s100386,_x0000_s100387,_x0000_s100388,_x0000_s100389,_x0000_s100390"
+ src="slide0082_image011.gif" style='position:absolute;top:40.0%;left:42.5%;
+ width:40.07%;height:34.5%'><![endif]>
+ <div v:shape="_x0000_s100375" class=O>
+ <div style='text-align:center;position:absolute;top:43.25%;left:66.1%;
+ width:10.86%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%;color:white'><b>compute&#13;</b></span></div>
+ <div style='text-align:center;mso-char-wrap:0;mso-kinsoku-overflow:0;
+ position:absolute;top:46.75%;left:65.16%;width:12.92%;height:3.5%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:67%;color:white'><b>coefficients</b></span><span
+ style='font-size:133%;color:white;mso-special-format:lastCR;display:none'><b>&#13;</b></span></div>
+ </div>
+ <div v:shape="_x0000_s100376" class=O>
+ <div style='text-align:center;position:absolute;top:41.0%;left:46.25%;
+ width:14.41%;height:3.5%'><span style='mso-bidi-font-family:"Times New Roman";
+ font-size:67%;color:white'><b>temporal&#13;</b></span></div>
+ <div style='text-align:center;mso-char-wrap:0;mso-kinsoku-overflow:0;
+ position:absolute;top:44.5%;left:45.88%;width:15.35%;height:3.5%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:67%;color:white'><b>lowpass
+ filter</b></span><span style='font-size:133%;color:white;mso-special-format:
+ lastCR;display:none'><b>&#13;</b></span></div>
+ </div>
+ <v:shape id="_x0000_s100403" type="#_x0000_t202" style='position:absolute;
+  left:362.25pt;top:127.25pt;width:207pt;height:24pt;mso-wrap-style:none;
+  v-text-anchor:top-baseline' o:regroupid="2" filled="f" fillcolor="#0c9"
+  stroked="f">
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+  <p:animation number="9" delay="0" type="object" effect="cut"
+   direction="noBlack" flag="1028"/></v:shape>
+ <div id="_x0000_s100403_AllText" v:shape="_x0000_s100403" class=O
+ style='position:absolute;top:24.5%;left:51.31%;width:32.2%;height:3.0%;
+ white-space:nowrap'>
+ <div style='position:absolute;top:0%;left:0%;width:100.0%;height:100.0%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:58%;color:white'><i>coil
+ 1<span style='mso-spacerun:yes'>      </span>coil 2<span
+ style='mso-spacerun:yes'>       </span>coil 3<span
+ style='mso-spacerun:yes'>      </span>coil 4</i></span><span style='font-size:
+ 117%;color:white;mso-special-format:lastCR;display:none'><i>&#13;</i></span></div>
+ </div>
+ <v:shape id="_x0000_s100404" type="#_x0000_t202" style='position:absolute;
+  left:83.25pt;top:128.75pt;width:207pt;height:24pt;mso-wrap-style:none;
+  v-text-anchor:top-baseline' o:regroupid="2" filled="f" fillcolor="#0c9"
+  stroked="f">
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+  <p:animation number="6" delay="0" type="object" effect="cut"
+   direction="noBlack" flag="1028"/></v:shape>
+ <div id="_x0000_s100404_AllText" v:shape="_x0000_s100404" class=O
+ style='position:absolute;top:24.75%;left:12.54%;width:32.2%;height:3.0%;
+ white-space:nowrap'>
+ <div style='position:absolute;top:0%;left:0%;width:100.0%;height:100.0%'><span
+ style='mso-bidi-font-family:"Times New Roman";font-size:58%;color:white'><i>coil
+ 1<span style='mso-spacerun:yes'>      </span>coil 2<span
+ style='mso-spacerun:yes'>       </span>coil 3<span
+ style='mso-spacerun:yes'>      </span>coil 4</i></span><span style='font-size:
+ 117%;color:white;mso-special-format:lastCR;display:none'><i>&#13;</i></span></div>
+ </div>
+ <v:shape id="_x0000_s100410" type="#_x0000_t75" style='position:absolute;
+  left:75.75pt;top:152.25pt;width:220.5pt;height:54pt'>
+  <v:fill o:detectmouseclick="t"/>
+  <v:imagedata src="slide0082_image012.png" o:title=""/>
+  <o:lock v:ext="edit" rotation="t"/>
+  <p:animation number="4" delay="0" type="object" effect="cut"
+   direction="noBlack" slidecount="0" flag="1284"/><p:onmouseclick
+   action="playMedia"/><p:media type="avi" loops="t"
+   href="file:///D:\presentations\ISMRM01\kellman_445_tsense\test\kellman_445_2.avi"/></v:shape><![if !ppt]>
+ <div id=S2 onclick="window.event.cancelBubble=true;" style='position:absolute;
+ top:28.25%;left:10.48%;width:30.71%;height:10.25%;cursor:hand;visibility:hidden'><![endif]><![if !ppt]><object
+  id=S2Movie classid="CLSID:05589FA1-C356-11CE-BF01-00AA0055595A"
+  style='visibility:hidden;position:absolute;top:0%;left:0%;width:100.0%;
+  height:100.0%'>
+  <param name=AutoStart value=0>
+  <param name=ShowDisplay value=0>
+  <param name=ShowControls value=0>
+  <param name=BorderStyle value=0>
+  <param name=AutoRewind value=0>
+  <param name=PlayCount value=0>
+  <param name=FileName value=movie1541.avi>
+ </object><script for=S2 event=onclick language=javascript><!--
+	if (!g_animUseRuntime) { 
+		PlayMedia('S2Movie');
+		self.focus();
+		window.event.cancelBubble = true;
+	}
+
+//--></script><script for=S2Movie event="StateChange( oldState, newState )"
+ language=javascript><!--
+	if( newState == 0 ) 
+		StopMedia('S2Movie');
+
+//--></script><![endif]><![if !vml]><img border=0 v:shapes="_x0000_s100410"
+ src="slide0082_image013.jpg" style='position:absolute;top:0%;left:0%;
+ width:100.0%;height:97.56%;cursor:hand'><![endif]><![if !ppt]></div>
+ <![endif]><v:shape id="_x0000_s100411" type="#_x0000_t75" style='position:absolute;
+  left:354pt;top:153pt;width:220.5pt;height:54pt'>
+  <v:fill o:detectmouseclick="t"/>
+  <v:imagedata src="slide0082_image014.png" o:title=""/>
+  <o:lock v:ext="edit" rotation="t"/>
+  <p:animation number="7" delay="0" type="object" effect="cut"
+   direction="noBlack" slidecount="0" flag="1284"/><p:onmouseclick
+   action="playMedia"/><p:media type="avi" loops="t"
+   href="file:///D:\presentations\ISMRM01\kellman_445_tsense\test\kellman_445_3.avi"/></v:shape><![if !ppt]>
+ <div id=S3 onclick="window.event.cancelBubble=true;" style='position:absolute;
+ top:28.25%;left:49.25%;width:30.71%;height:10.25%;cursor:hand;visibility:hidden'><![endif]><![if !ppt]><object
+  id=S3Movie classid="CLSID:05589FA1-C356-11CE-BF01-00AA0055595A"
+  style='visibility:hidden;position:absolute;top:0%;left:0%;width:100.0%;
+  height:100.0%'>
+  <param name=AutoStart value=0>
+  <param name=ShowDisplay value=0>
+  <param name=ShowControls value=0>
+  <param name=BorderStyle value=0>
+  <param name=AutoRewind value=0>
+  <param name=PlayCount value=0>
+  <param name=FileName value=movie1542.avi>
+ </object><script for=S3 event=onclick language=javascript><!--
+	if (!g_animUseRuntime) { 
+		PlayMedia('S3Movie');
+		self.focus();
+		window.event.cancelBubble = true;
+	}
+
+//--></script><script for=S3Movie event="StateChange( oldState, newState )"
+ language=javascript><!--
+	if( newState == 0 ) 
+		StopMedia('S3Movie');
+
+//--></script><![endif]><![if !vml]><img border=0 v:shapes="_x0000_s100411"
+ src="slide0082_image015.jpg" style='position:absolute;top:0%;left:0%;
+ width:100.0%;height:97.56%;cursor:hand'><![endif]><![if !ppt]></div>
+ <![endif]><v:shape id="_x0000_s100412" type="#_x0000_t75" style='position:absolute;
+  left:413.25pt;top:411pt;width:79.5pt;height:79.5pt'>
+  <v:fill o:detectmouseclick="t"/>
+  <v:imagedata src="slide0082_image016.png" o:title=""/>
+  <o:lock v:ext="edit" rotation="t"/>
+  <p:animation number="10" delay="0" type="object" effect="cut"
+   direction="noBlack" slidecount="0" flag="1284"/><p:onmouseclick
+   action="playMedia"/><p:media type="avi" loops="t"
+   href="file:///D:\presentations\ISMRM01\kellman_445_tsense\test\kellman_445_4.avi"/></v:shape><![if !ppt]>
+ <div id=S4 onclick="window.event.cancelBubble=true;" style='position:absolute;
+ top:76.0%;left:57.3%;width:11.23%;height:15.0%;cursor:hand;visibility:hidden'><![endif]><![if !ppt]><object
+  id=S4Movie classid="CLSID:05589FA1-C356-11CE-BF01-00AA0055595A"
+  style='visibility:hidden;position:absolute;top:0%;left:0%;width:100.0%;
+  height:100.0%'>
+  <param name=AutoStart value=0>
+  <param name=ShowDisplay value=0>
+  <param name=ShowControls value=0>
+  <param name=BorderStyle value=0>
+  <param name=AutoRewind value=0>
+  <param name=PlayCount value=0>
+  <param name=FileName value=movie1544.avi>
+ </object><script for=S4 event=onclick language=javascript><!--
+	if (!g_animUseRuntime) { 
+		PlayMedia('S4Movie');
+		self.focus();
+		window.event.cancelBubble = true;
+	}
+
+//--></script><script for=S4Movie event="StateChange( oldState, newState )"
+ language=javascript><!--
+	if( newState == 0 ) 
+		StopMedia('S4Movie');
+
+//--></script><![endif]><![if !vml]><img border=0 v:shapes="_x0000_s100412"
+ src="slide0082_image017.jpg" style='position:absolute;top:0%;left:0%;
+ width:98.33%;height:98.33%;cursor:hand'><![endif]><![if !ppt]></div>
+ <![endif]><v:shape id="_x0000_s100413" type="#_x0000_t75" style='position:absolute;
+  left:597.75pt;top:328.5pt;width:79.5pt;height:79.5pt'>
+  <v:fill o:detectmouseclick="t"/>
+  <v:imagedata src="slide0082_image018.png" o:title=""/>
+  <o:lock v:ext="edit" rotation="t"/>
+  <p:animation number="12" delay="0" type="object" effect="cut"
+   direction="noBlack" slidecount="0" flag="1284"/><p:onmouseclick
+   action="playMedia"/><p:media type="avi" loops="t"
+   href="file:///D:\presentations\ISMRM01\kellman_445_tsense\test\kellman_445_5.avi"/></v:shape><![if !ppt]>
+ <div id=S5 onclick="window.event.cancelBubble=true;" style='position:absolute;
+ top:60.75%;left:82.95%;width:11.23%;height:15.0%;cursor:hand;visibility:hidden'><![endif]><![if !ppt]><object
+  id=S5Movie classid="CLSID:05589FA1-C356-11CE-BF01-00AA0055595A"
+  style='visibility:hidden;position:absolute;top:0%;left:0%;width:100.0%;
+  height:100.0%'>
+  <param name=AutoStart value=0>
+  <param name=ShowDisplay value=0>
+  <param name=ShowControls value=0>
+  <param name=BorderStyle value=0>
+  <param name=AutoRewind value=0>
+  <param name=PlayCount value=0>
+  <param name=FileName value=movie1545.avi>
+ </object><script for=S5 event=onclick language=javascript><!--
+	if (!g_animUseRuntime) { 
+		PlayMedia('S5Movie');
+		self.focus();
+		window.event.cancelBubble = true;
+	}
+
+//--></script><script for=S5Movie event="StateChange( oldState, newState )"
+ language=javascript><!--
+	if( newState == 0 ) 
+		StopMedia('S5Movie');
+
+//--></script><![endif]><![if !vml]><img border=0 v:shapes="_x0000_s100413"
+ src="slide0082_image019.jpg" style='position:absolute;top:0%;left:0%;
+ width:98.33%;height:98.33%;cursor:hand'><![endif]><![if !ppt]></div>
+ <![endif]><v:rect id="_x0000_s100415" style='position:absolute;left:461.625pt;
+  top:220.25pt;width:109.375pt;height:67pt;mso-wrap-style:none;v-text-anchor:middle'
+  filled="f" fillcolor="#0c9 [4]" strokecolor="#9cf" strokeweight="6pt">
+  <v:fill color2="#006 [0]"/>
+  <v:shadow color="#fc0 [2]"/>
+  <p:animation number="14" delay="0" type="object" effect="cut"
+   direction="noBlack" flag="17412"/></v:rect><![if !vml]><img border=0
+ v:shapes="_x0000_s100415" src="slide0082_image020.gif" style='position:absolute;
+ top:40.25%;left:63.67%;width:16.29%;height:14.0%'><![endif]></p:slide></div>
+
+<p:animation number="-1777899975"/><oa:par id="TimeNode0" dur="indefinite"
+ restart="never" p:nodeType="timingRoot">
+ <oa:seq id="TimeNode1" dur="indefinite" prev="document.onpptprev"
+  next="document.onpptnext" concurrent="enabled" nextAction="seek"
+  p:nodeType="mainSeq">
+  <oa:par id="TimeNode2" begin="indefinite;TimeNode1.onbegin" fill="hold">
+   <oa:par id="TimeNode3" begin="0.0" fill="hold">
+    <oa:par id="TimeNode4" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:set id="TimeNode5" begin="0.499" dur="0.001" fill="hold"
+      targetElement="S1" attributeName="style.visibility" to="visible"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode6" begin="0.5" fill="hold">
+    <oa:par id="TimeNode7" o:presetID="ppt_1" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:command id="TimeNode8" dur="0.001" fill="hold"
+      targetElement="TimeNode44" type="call" cmd="playFrom(0.0)"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode9" begin="0.75" fill="hold">
+    <oa:par id="TimeNode10" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:set id="TimeNode11" begin="0.499" dur="0.001" fill="hold"
+      targetElement="S2" attributeName="style.visibility" to="visible"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode12" begin="1.25" fill="hold">
+    <oa:par id="TimeNode13" o:presetID="ppt_1" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:command id="TimeNode14" dur="0.001" fill="hold"
+      targetElement="TimeNode50" type="call" cmd="playFrom(0.0)"/>
+    </oa:par>
+    <oa:par id="TimeNode15" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" o:groupID="0"
+     p:nodeType="withEffect">
+     <oa:set id="TimeNode16" begin="0.499" dur="0.001" fill="hold"
+      targetElement="_x0000_s100404" attributeName="style.visibility"
+      to="visible"/>
+    </oa:par>
+    <![if !ppt]><oa:par id="TimeNode17" o:presetID="ppt_1"
+     o:presetClass="entrance" o:presetSubType="0x0" begin="0.0" fill="hold"
+     p:nodeType="withEffect">
+     <oa:set id="TimeNode18" begin="0.499" dur="0.001" fill="hold"
+      targetElement="_x0000_s100404_AllText" attributeName="style.visibility"
+      to="visible"/>
+    </oa:par>
+    <![endif]></oa:par>
+   <oa:par id="TimeNode19" begin="1.75" fill="hold">
+    <oa:par id="TimeNode20" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:set id="TimeNode21" begin="0.499" dur="0.001" fill="hold"
+      targetElement="S3" attributeName="style.visibility" to="visible"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode22" begin="2.25" fill="hold">
+    <oa:par id="TimeNode23" o:presetID="ppt_1" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:command id="TimeNode24" dur="0.001" fill="hold"
+      targetElement="TimeNode56" type="call" cmd="playFrom(0.0)"/>
+    </oa:par>
+    <oa:par id="TimeNode25" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" o:groupID="0"
+     p:nodeType="withEffect">
+     <oa:set id="TimeNode26" begin="0.499" dur="0.001" fill="hold"
+      targetElement="_x0000_s100403" attributeName="style.visibility"
+      to="visible"/>
+    </oa:par>
+    <![if !ppt]><oa:par id="TimeNode27" o:presetID="ppt_1"
+     o:presetClass="entrance" o:presetSubType="0x0" begin="0.0" fill="hold"
+     p:nodeType="withEffect">
+     <oa:set id="TimeNode28" begin="0.499" dur="0.001" fill="hold"
+      targetElement="_x0000_s100403_AllText" attributeName="style.visibility"
+      to="visible"/>
+    </oa:par>
+    <![endif]></oa:par>
+   <oa:par id="TimeNode29" begin="2.75" fill="hold">
+    <oa:par id="TimeNode30" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:set id="TimeNode31" begin="0.499" dur="0.001" fill="hold"
+      targetElement="S4" attributeName="style.visibility" to="visible"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode32" begin="3.25" fill="hold">
+    <oa:par id="TimeNode33" o:presetID="ppt_1" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:command id="TimeNode34" dur="0.001" fill="hold"
+      targetElement="TimeNode62" type="call" cmd="playFrom(0.0)"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode35" begin="3.25" fill="hold">
+    <oa:par id="TimeNode36" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:set id="TimeNode37" begin="0.499" dur="0.001" fill="hold"
+      targetElement="S5" attributeName="style.visibility" to="visible"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode38" begin="3.75" fill="hold">
+    <oa:par id="TimeNode39" o:presetID="ppt_1" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:command id="TimeNode40" dur="0.001" fill="hold"
+      targetElement="TimeNode68" type="call" cmd="playFrom(0.0)"/>
+    </oa:par>
+   </oa:par>
+   <oa:par id="TimeNode41" begin="3.75" fill="hold">
+    <oa:par id="TimeNode42" o:presetID="ppt_1" o:presetClass="entrance"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="afterEffect">
+     <oa:set id="TimeNode43" begin="0.499" dur="0.001" fill="hold"
+      targetElement="_x0000_s100415" attributeName="style.visibility"
+      to="visible"/>
+    </oa:par>
+   </oa:par>
+  </oa:par>
+ </oa:seq>
+ <oa:video src="movie1535.avi" o:srcRefType="shape" o:srcRef="_x0000_s100354"
+  targetElement="S1" volume="50.0" id="TimeNode44" begin="indefinite"
+  end="document.onpptprev" repeatCount="indefinite" fill="hold" o:display="hidden"/>
+ <oa:seq id="TimeNode45" begin="_x0000_s100354.onclick;S1.onclick" endSync="all"
+  restart="whenNotActive" fill="hold" eventFilter="cancelBubble"
+  next="_x0000_s100354.onclick;S1.onclick" concurrent="enabled"
+  nextAction="seek" p:nodeType="interactiveSeq" o:ignoreIDs="S1">
+  <oa:par id="TimeNode46" begin="0.0" fill="hold">
+   <oa:par id="TimeNode47" begin="0.0" fill="hold">
+    <oa:par id="TimeNode48" o:presetID="ppt_2" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="clickEffect">
+     <oa:command id="TimeNode49" dur="0.001" fill="hold"
+      targetElement="TimeNode44" type="call" cmd="togglePause"/>
+    </oa:par>
+   </oa:par>
+  </oa:par>
+ </oa:seq>
+ <oa:video src="movie1541.avi" o:srcRefType="shape" o:srcRef="_x0000_s100410"
+  targetElement="S2" volume="50.0" id="TimeNode50" begin="indefinite"
+  end="document.onpptprev" repeatCount="indefinite" fill="hold" o:display="hidden"/>
+ <oa:seq id="TimeNode51" begin="_x0000_s100410.onclick;S2.onclick" endSync="all"
+  restart="whenNotActive" fill="hold" eventFilter="cancelBubble"
+  next="_x0000_s100410.onclick;S2.onclick" concurrent="enabled"
+  nextAction="seek" p:nodeType="interactiveSeq" o:ignoreIDs="S2">
+  <oa:par id="TimeNode52" begin="0.0" fill="hold">
+   <oa:par id="TimeNode53" begin="0.0" fill="hold">
+    <oa:par id="TimeNode54" o:presetID="ppt_2" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="clickEffect">
+     <oa:command id="TimeNode55" dur="0.001" fill="hold"
+      targetElement="TimeNode50" type="call" cmd="togglePause"/>
+    </oa:par>
+   </oa:par>
+  </oa:par>
+ </oa:seq>
+ <oa:video src="movie1542.avi" o:srcRefType="shape" o:srcRef="_x0000_s100411"
+  targetElement="S3" volume="50.0" id="TimeNode56" begin="indefinite"
+  end="document.onpptprev" repeatCount="indefinite" fill="hold" o:display="hidden"/>
+ <oa:seq id="TimeNode57" begin="_x0000_s100411.onclick;S3.onclick" endSync="all"
+  restart="whenNotActive" fill="hold" eventFilter="cancelBubble"
+  next="_x0000_s100411.onclick;S3.onclick" concurrent="enabled"
+  nextAction="seek" p:nodeType="interactiveSeq" o:ignoreIDs="S3">
+  <oa:par id="TimeNode58" begin="0.0" fill="hold">
+   <oa:par id="TimeNode59" begin="0.0" fill="hold">
+    <oa:par id="TimeNode60" o:presetID="ppt_2" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="clickEffect">
+     <oa:command id="TimeNode61" dur="0.001" fill="hold"
+      targetElement="TimeNode56" type="call" cmd="togglePause"/>
+    </oa:par>
+   </oa:par>
+  </oa:par>
+ </oa:seq>
+ <oa:video src="movie1544.avi" o:srcRefType="shape" o:srcRef="_x0000_s100412"
+  targetElement="S4" volume="50.0" id="TimeNode62" begin="indefinite"
+  end="document.onpptprev" repeatCount="indefinite" fill="hold" o:display="hidden"/>
+ <oa:seq id="TimeNode63" begin="_x0000_s100412.onclick;S4.onclick" endSync="all"
+  restart="whenNotActive" fill="hold" eventFilter="cancelBubble"
+  next="_x0000_s100412.onclick;S4.onclick" concurrent="enabled"
+  nextAction="seek" p:nodeType="interactiveSeq" o:ignoreIDs="S4">
+  <oa:par id="TimeNode64" begin="0.0" fill="hold">
+   <oa:par id="TimeNode65" begin="0.0" fill="hold">
+    <oa:par id="TimeNode66" o:presetID="ppt_2" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="clickEffect">
+     <oa:command id="TimeNode67" dur="0.001" fill="hold"
+      targetElement="TimeNode62" type="call" cmd="togglePause"/>
+    </oa:par>
+   </oa:par>
+  </oa:par>
+ </oa:seq>
+ <oa:video src="movie1545.avi" o:srcRefType="shape" o:srcRef="_x0000_s100413"
+  targetElement="S5" volume="50.0" id="TimeNode68" begin="indefinite"
+  end="document.onpptprev" repeatCount="indefinite" fill="hold" o:display="hidden"/>
+ <oa:seq id="TimeNode69" begin="_x0000_s100413.onclick;S5.onclick" endSync="all"
+  restart="whenNotActive" fill="hold" eventFilter="cancelBubble"
+  next="_x0000_s100413.onclick;S5.onclick" concurrent="enabled"
+  nextAction="seek" p:nodeType="interactiveSeq" o:ignoreIDs="S5">
+  <oa:par id="TimeNode70" begin="0.0" fill="hold">
+   <oa:par id="TimeNode71" begin="0.0" fill="hold">
+    <oa:par id="TimeNode72" o:presetID="ppt_2" o:presetClass="mediacall"
+     o:presetSubType="0x0" begin="0.0" fill="hold" p:nodeType="clickEffect">
+     <oa:command id="TimeNode73" dur="0.001" fill="hold"
+      targetElement="TimeNode68" type="call" cmd="togglePause"/>
+    </oa:par>
+   </oa:par>
+  </oa:par>
+ </oa:seq>
+</oa:par>
+<![if ppt]>
+<oa:buildParagraph targetElement="_x0000_s100403" groupID="0" build="asAWhole"
+ buildLevel="1" reverse="false" buildAdvance="onclick" userSetAnimBgd="true"/><oa:buildParagraph
+ targetElement="_x0000_s100404" groupID="0" build="asAWhole" buildLevel="1"
+ reverse="false" buildAdvance="onclick" userSetAnimBgd="true"/>
+<![endif]>
+<![if !ppt]>
+
+<div id=NotesObj style='display:none'>
+
+<table style='color:white' border=0 width="100%">
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>This simplified diagram illustrates the TSENSE
+  method for a rate 2 acceleration.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>The k-space is acquired with multiple coils
+  using an interleaved phase encode order, odd-even-odd-even, etc.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>The reduced FOV images may then be
+  reconstructed with SENSE</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>Any residual artifacts due to errors in coil
+  sensitivity estimates will be temporal frequency shifted to the band-edge,
+  and can be further suppressed using a temporal lowpass filter. The order of
+  temporal filter and SENSE may of course be reversed.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>The coil sensitivity maps may be estimated
+  adaptively as shown using the surface coil images alone (without acquiring
+  separate body coil reference acquisitions), by using a temporal lowpass
+  filter.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>The narrower lowpass filter bandwidth can be
+  used to produce highly ghost suppressed images with lower temporal
+  resolution, which may be used to compute the SENSE coefficients. I’ll say
+  more about this in a few moments.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>Example thumbnail images are shown to
+  illustrate the method. Better quality images will be shown in a moment, along
+  with quantitative measurements of artifact suppression.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>This example is for<span
+  style='mso-spacerun:yes'>  </span>non-breath-held, continuous,<span
+  style='mso-spacerun:yes'>  </span>real time imaging of a short axis slice of
+  the heart, immediately following exercise stress, so the heart is beating at
+  150 bpm and the respiratory rate is 30 breaths/min, with heavy chest
+  breathing. This was conducted on a GE scanner using their standard cardiac
+  4-surface coil array.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>You can observe the beating between the image
+  and ghost in the magnitude images, caused by the alternating phase of the
+  alias ghost.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>After lowpass filtering the ghosts are
+  suppressed.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>The adaptive SENSE images achieve the full
+  temporal resolution, and have reasonable quality, but there is still some
+  residual alias artifact since the chest wall is moving so rapidly, and there
+  are errors in measuring the relative coil sensitivities. You can see that the
+  residual artifact is flickering, since it is shifted to the bandedge.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>This residual artifact is further suppressed
+  using a temporal lowpass filter with 80% bandwidth.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=2>•</font><font
+  face="Times New Roman" size=2>Next let me discuss the adaptive computation of
+  SENSE coefficients which is central to this method.</font><br>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<![endif]>
+</body>
+
+</html>

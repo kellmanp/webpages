@@ -1,0 +1,298 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 9">
+<link id=Main-File rel=Main-File href="../ISMRM2001_ghost_cancel.htm">
+<link rel=Preview href=preview.wmf>
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+p\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+v\:textbox {display:none;}
+</style>
+<![endif]-->
+<title>Phase Array Ghost Elimination (PAGE)</title>
+<meta name=Description
+content="31-Dec-01: How Phased Array Ghost Cancellation Works?">
+<link rel=Stylesheet href="master03_stylesheet.css">
+<![if !ppt]>
+<style media=print>
+<!--.sld
+	{left:0px !important;
+	width:6.0in !important;
+	height:4.5in !important;
+	font-size:107% !important;}
+-->
+</style>
+<script src=script.js></script><script><!--
+gId="slide0090.htm"
+if( !IsNts() ) Redirect( "PPTSld", gId );
+//-->
+</script><!--[if vml]><script>g_vml = 1;
+</script><![endif]--><script for=window event=onload><!--
+if( !IsSldOrNts() ) return;
+if( MakeNotesVis() ) return;
+LoadSld( gId );
+MakeSldVis(0);
+//-->
+</script><![endif]><o:shapelayout v:ext="edit">
+ <o:rules v:ext="edit">
+  <o:r id="V:Rule2" type="connector" idref="#_x0000_s108602"/>
+  <o:r id="V:Rule3" type="connector" idref="#_x0000_s108603"/>
+ </o:rules>
+ <o:regrouptable v:ext="edit">
+  <o:entry new="1" old="0"/>
+  <o:entry new="2" old="0"/>
+  <o:entry new="3" old="0"/>
+  <o:entry new="4" old="0"/>
+  <o:entry new="5" old="0"/>
+  <o:entry new="6" old="0"/>
+ </o:regrouptable>
+</o:shapelayout>
+</head>
+
+<body lang=EN-US style='margin:0px;background-color:black'
+onclick="DocumentOnClick()" onresize="_RSW()" onkeypress="_KPH()">
+
+<div id=SlideObj class=sld style='position:absolute;top:0px;left:0px;
+width:534px;height:400px;font-size:16px;background-color:#000066;clip:rect(0%, 101%, 101%, 0%);
+visibility:hidden'><p:slide coordsize="720,540"
+ colors="#000066,#FFFF00,#FFCC00,#FFFF00,#00CC99,#3333CC,#CCCCFF,#B2B2B2"
+ masterhref="master03.xml">
+ <p:shaperange href="master03.xml#_x0000_s1025"/><![if !vml]><img
+ src="master03_background.gif" v:shapes="_x0000_s1025" style='position:absolute;
+ top:0%;left:0%;width:100.0%;height:100.0%'><![endif]><![if !ppt]><p:shaperange
+  href="master03.xml#_x0000_s1028"/><p:shaperange
+  href="master03.xml#_x0000_s1029"/><![endif]><v:shapetype id="_x0000_t202"
+  coordsize="21600,21600" o:spt="202" path="m0,0l0,21600,21600,21600,21600,0xe">
+  <v:stroke joinstyle="miter"/>
+  <v:path gradientshapeok="t" o:connecttype="rect"/>
+ </v:shapetype><v:shape id="_x0000_s108563" type="#_x0000_t202" style='position:absolute;
+  left:13.5pt;top:152.375pt;width:668.25pt;height:56pt;mso-wrap-style:none;
+  v-text-anchor:top-baseline' filled="f" fillcolor="#0c9 [4]" strokecolor="yellow [1]">
+  <v:fill color2="#006 [0]"/>
+  <v:shadow color="#fc0 [2]"/>
+  <v:textbox style='mso-fit-shape-to-text:t'/>
+ </v:shape><v:line id="_x0000_s108564" style='position:absolute' from="9.125pt,119.875pt"
+  to="710.375pt,119.875pt" strokecolor="red" strokeweight="2.25pt">
+  <v:shadow color="#fc0 [2]"/>
+ </v:line><![if !vml]><img border=0 v:shapes="_x0000_s108563,_x0000_s108564"
+ src="slide0090_image003.gif" style='position:absolute;top:22.0%;left:1.12%;
+ width:98.12%;height:17.0%'><![endif]>
+ <div v:shape="_x0000_s108563" class=O>
+ <div style='mso-text-indent-alt:112;position:absolute;top:29.25%;left:3.93%;
+ width:88.95%;height:4.25%'><span style='position:absolute;top:0%;left:1.05%;
+ width:98.94%'><span style='font-size:83%'><span style='mso-special-format:
+ bullet;position:absolute;left:-1.06%'>•</span></span><span style='font-size:
+ 83%'>Given knowledge (estimates) of coil sensitivity profiles&#13;</span></span></div>
+ <div style='mso-text-indent-alt:112;position:absolute;top:33.75%;left:3.93%;
+ width:106.55%;height:4.25%'><span style='position:absolute;top:0%;left:.87%;
+ width:99.12%'><span style='font-size:83%'><span style='mso-special-format:
+ bullet;position:absolute;left:-.88%'>•</span></span><span style='font-size:
+ 83%'>Ghost images can be separated by solving linear equations (“inverse”
+ problem)</span></span></div>
+ </div>
+ <v:rect id="_x0000_s108574" style='position:absolute;left:66pt;top:398.25pt;
+  width:591.75pt;height:96.75pt;mso-wrap-style:none;v-text-anchor:middle'
+  o:regroupid="1" filled="f" fillcolor="#0c9 [4]" strokecolor="white">
+  <v:fill color2="#006 [0]"/>
+  <v:shadow color="#fc0 [2]"/>
+ </v:rect><v:group id="_x0000_s108600" style='position:absolute;left:232.375pt;
+  top:241.75pt;width:408.25pt;height:122pt' coordorigin="1097,1562"
+  coordsize="3266,976" o:regroupid="6">
+  <v:shape id="_x0000_s108552" type="#_x0000_t202" style='position:absolute;
+   left:1217;top:1562;width:511;height:250;mso-wrap-style:none;v-text-anchor:top-baseline'
+   o:regroupid="2" filled="f" fillcolor="#0c9 [4]" stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shape id="_x0000_s108581" type="#_x0000_t202" style='position:absolute;
+   left:2033;top:1562;width:511;height:250;mso-wrap-style:none;v-text-anchor:top-baseline'
+   o:regroupid="3" filled="f" fillcolor="#0c9 [4]" stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shape id="_x0000_s108587" type="#_x0000_t202" style='position:absolute;
+   left:2891;top:1562;width:511;height:250;mso-wrap-style:none;v-text-anchor:top-baseline'
+   o:regroupid="4" filled="f" fillcolor="#0c9 [4]" stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shape id="_x0000_s108593" type="#_x0000_t202" style='position:absolute;
+   left:3707;top:1562;width:511;height:250;mso-wrap-style:none;v-text-anchor:top-baseline'
+   o:regroupid="5" filled="f" fillcolor="#0c9 [4]" stroked="f" strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:shadow color="#fc0 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+   o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s108598" type="#_x0000_t75" style='position:absolute;
+   left:1097;top:1794;width:3266;height:744' fillcolor="#0c9 [4]"
+   strokecolor="yellow [1]">
+   <v:fill color2="#006 [0]"/>
+   <v:imagedata src="slide0090_image004.wmz" o:title=""/>
+   <v:shadow color="#fc0 [2]"/>
+  </v:shape></v:group><![if !vml]><img border=0
+ v:shapes="_x0000_s108574,_x0000_s108600,_x0000_s108552,_x0000_s108581,_x0000_s108587,_x0000_s108593,_x0000_s108598"
+ src="slide0090_image005.gif" style='position:absolute;top:44.75%;left:9.17%;
+ width:82.58%;height:47.5%'><![endif]>
+ <div v:shape="_x0000_s108552" class=O style='position:absolute;top:45.75%;
+ left:35.39%;width:8.42%;height:4.25%'><span style='font-size:83%'><i>Coil</i></span><span
+ style='font-size:83%'> 1</span></div>
+ <div v:shape="_x0000_s108581" class=O style='position:absolute;top:45.75%;
+ left:49.43%;width:8.42%;height:4.25%'><span style='font-size:83%'><i>Coil</i></span><span
+ style='font-size:83%'> 2</span></div>
+ <div v:shape="_x0000_s108587" class=O style='position:absolute;top:45.75%;
+ left:64.41%;width:8.42%;height:4.25%'><span style='font-size:83%'><i>Coil</i></span><span
+ style='font-size:83%'> 3</span></div>
+ <div v:shape="_x0000_s108593" class=O style='position:absolute;top:45.75%;
+ left:78.65%;width:8.42%;height:4.25%'><span style='font-size:83%'><i>Coil</i></span><span
+ style='font-size:83%'> 4</span></div>
+ <v:shapetype id="_x0000_t38" coordsize="21600,21600" o:spt="38" o:oned="t"
+  path="m0,0c@0,0@1,5400@1,10800@1,16200@2,21600,21600,21600e" filled="f">
+  <v:formulas>
+   <v:f eqn="mid #0 0"/>
+   <v:f eqn="val #0"/>
+   <v:f eqn="mid #0 21600"/>
+  </v:formulas>
+  <v:path arrowok="t" fillok="f" o:connecttype="none"/>
+  <v:handles>
+   <v:h position="#0,center"/>
+  </v:handles>
+  <o:lock v:ext="edit" shapetype="t"/>
+ </v:shapetype><v:shape id="_x0000_s108602" type="#_x0000_t38" style='position:absolute;
+  left:192.125pt;top:315pt;width:40.375pt;height:7.375pt;flip:y'
+  o:connectortype="curved" o:regroupid="6" adj="10767,805790,-101580"
+  strokecolor="white">
+  <v:stroke endarrow="block"/>
+  <v:shadow color="#fc0 [2]"/>
+ </v:shape><![if !vml]><img border=0 v:shapes="_x0000_s108602"
+ src="slide0090_image006.gif" style='position:absolute;top:57.5%;left:26.59%;
+ width:6.17%;height:2.75%'><![endif]><v:shape id="_x0000_s108603" type="#_x0000_t38"
+  style='position:absolute;left:205pt;top:280pt;width:24.5pt;height:4.25pt'
+  o:connectortype="curved" o:regroupid="6" adj="10800,-1426871,-177429"
+  strokecolor="white">
+  <v:stroke endarrow="block"/>
+  <v:shadow color="#fc0 [2]"/>
+ </v:shape><![if !vml]><img border=0 v:shapes="_x0000_s108603"
+ src="slide0090_image007.gif" style='position:absolute;top:51.75%;left:28.46%;
+ width:3.93%;height:2.0%'><![endif]><v:shape id="_x0000_s108607" type="#_x0000_t75"
+  style='position:absolute;left:87pt;top:404.375pt;width:550.5pt;height:80.5pt'>
+  <v:imagedata src="slide0090_image008.png" o:title="ghost-eqn"/>
+ </v:shape><![if !vml]><img border=0 v:shapes="_x0000_s108607"
+ src="slide0090_image009.gif" style='position:absolute;top:75.0%;left:12.17%;
+ width:76.4%;height:15.0%'><![endif]><v:shape id="_x0000_s108608" type="#_x0000_t75"
+  style='position:absolute;left:49.375pt;top:304.125pt;width:143.375pt;
+  height:36.375pt'>
+  <v:imagedata src="slide0090_image010.png" o:title="h0-weight"/>
+ </v:shape><![if !vml]><img border=0 v:shapes="_x0000_s108608"
+ src="slide0090_image011.gif" style='position:absolute;top:56.25%;left:6.92%;
+ width:19.85%;height:6.75%'><![endif]><v:shape id="_x0000_s108609" type="#_x0000_t75"
+  style='position:absolute;left:14.625pt;top:248.75pt;width:210.625pt;height:32.5pt'>
+  <v:imagedata src="slide0090_image012.png" o:title="h1-weight"/>
+ </v:shape><![if !vml]><img border=0 v:shapes="_x0000_s108609"
+ src="slide0090_image013.gif" style='position:absolute;top:46.0%;left:2.05%;
+ width:29.21%;height:6.0%'><![endif]><p:shaperange
+  href="master03.xml#_x0000_m1026"/><v:shape id="_x0000_s108610" type="#_x0000_m1026"
+  style='position:absolute;left:54pt;top:22.5pt;width:612pt;height:90pt'>
+  <v:fill o:detectmouseclick="f"/>
+  <v:stroke o:forcedash="f"/>
+  <o:lock v:ext="edit" text="f"/>
+  <p:placeholder type="title"/></v:shape>
+ <div v:shape="_x0000_s108610" class=T><span style='position:absolute;
+ top:4.0%;left:8.42%;width:83.14%'><span style='font-size:91%'>How Phased
+ Array<br>
+ </span></span><span style='position:absolute;top:13.0%;left:8.42%;
+ width:83.14%'><span style='font-size:91%'>Ghost Cancellation Works?</span></span></div>
+</p:slide></div>
+
+<![if !ppt]>
+
+<div id=NotesObj style='display:none'>
+
+<table style='color:white' border=0 width="100%">
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=4>•</font><font
+  face="Times New Roman" size=4>Let me begin by describing how the basic ghost
+  cancellation method works.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=4>•</font><font
+  face="Times New Roman" size=4>In phased array or multi-coil reception, the
+  desired image as well as ghosts are weighted by the coil sensitivity for
+  individual coils as depicted for this example with 4 coils and FOV/2 ghosts.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=4>•</font><font
+  face="Times New Roman" size=4>The individual coils sensitivity weights both
+  the desired image as well as ghosts, denoted here by si(x,y).</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=4>•</font><font
+  face="Times New Roman" size=4>This weighted superposition is a set of linear
+  equations which can be solved (in a least square sense) by a matrix inversion
+  if the sensitivity profiles are known.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=4>•</font><font
+  face="Times New Roman" size=4>The desired image and ghost are also weighted
+  by their respective values of complex point spread function, h0 and h1 in
+  this case. Therefore, the equations actually solve for<span
+  style="mso-spacerun: yes">  </span>the PSF weighted desired and ghost images,
+  h0 f<span style="mso-spacerun: yes">  </span>and h1 f.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=4>•</font><font
+  face="Times New Roman" size=4>Unlike the SENSE accelerated imaging
+  application for which the ghosts are caused by intentional undersampling with
+  a space invariant PSF, this method is quite general and may be used with a
+  spatially varying PSF. That is to say h0 and h1 are functions of (x,y).</font><br>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<![endif]>
+</body>
+
+</html>

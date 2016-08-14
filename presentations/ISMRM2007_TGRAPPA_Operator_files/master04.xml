@@ -1,0 +1,62 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="2"/>
+ </o:shapelayout><p:colorscheme
+  colors="#2b5481,#ffffff,#003366,#e5ffff,#009999,#336699,#00ccff,#ffcc00"/>
+ <v:background id="_x0000_s2049" o:bwmode="white" fillcolor="#369 [5]"
+  o:targetscreensize="800,600">
+  <v:fill src="master03_image001.jpg" o:title="texture_mid" color2="fill darken(189)"
+   recolor="t" method="linear sigma" focus="100%" type="gradient"/>
+  <v:imagedata recolortarget="#2b5481 [0]"/>
+ </v:background><p:shaperange id="_x0000_m2050">
+  <v:shapetype id="_x0000_m2050" style='position:absolute;left:54pt;top:132pt;
+   width:612pt;height:2in;v-text-anchor:middle' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#099 [4]" stroked="f" strokecolor="white [1]">
+   <v:fill color2="#2b5481 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#036 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="centerTitle" size="quarter"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m2051">
+  <v:shapetype id="_x0000_m2051" style='position:absolute;left:108pt;top:306pt;
+   width:7in;height:138pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#099 [4]" stroked="f"
+   strokecolor="white [1]">
+   <v:fill color2="#2b5481 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#036 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="subTitle" position="1" size="quarter"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s2052">
+  <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+   o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s2052" type="#_x0000_t75" style='position:absolute;
+   left:6pt;top:491.75pt;width:180pt;height:42.25pt'>
+   <v:imagedata src="master03_image003.png" o:title="Logo_hor_BlueRev_CWRU"/>
+  </v:shape></p:shaperange>
+</xml>

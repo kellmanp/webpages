@@ -1,0 +1,192 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="181"/>
+  <o:regrouptable v:ext="edit">
+   <o:entry new="1" old="0"/>
+  </o:regrouptable>
+ </o:shapelayout><p:shaperange id="_x0000_s185347">
+  <v:shape id="_x0000_s185347" type="#_x0000_m1026" style='position:absolute;
+   left:60.125pt;top:34.25pt;width:612pt;height:90pt'>
+   <v:fill o:detectmouseclick="f"/>
+   <v:stroke o:forcedash="f"/>
+   <o:lock v:ext="edit" text="f"/>
+   <p:placeholder type="title"/>
+  </v:shape><v:line id="_x0000_s185348" style='position:absolute' from="9.125pt,119.875pt"
+   to="710.375pt,119.875pt" strokecolor="red" strokeweight="2.25pt">
+   <v:shadow color="#fc0 [2]"/>
+  </v:line><v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+   o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s185512" type="#_x0000_t75" style='position:absolute;
+   left:143.875pt;top:156pt;width:432.125pt;height:324pt' o:preferrelative="f"
+   o:regroupid="1">
+   <v:fill o:detectmouseclick="t"/>
+   <v:path o:extrusionok="t" o:connecttype="none"/>
+   <o:lock v:ext="edit" text="t"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s185514">
+  <v:rect id="_x0000_s185514" style='position:absolute;left:235.75pt;top:180.625pt;
+   width:263.875pt;height:263.875pt' o:regroupid="1" stroked="f"/>
+  <v:rect id="_x0000_s185515" style='position:absolute;left:235.75pt;top:180.625pt;
+   width:263.875pt;height:263.875pt' o:regroupid="1" filled="f" strokecolor="white"
+   strokeweight="0"/>
+  <v:line id="_x0000_s185516" style='position:absolute' from="235.75pt,444.5pt"
+   to="499.625pt,444.625pt" o:regroupid="1" strokeweight="0"/>
+  <v:line id="_x0000_s185517" style='position:absolute;flip:y' from="235.75pt,180.625pt"
+   to="235.875pt,444.5pt" o:regroupid="1" strokeweight="0"/>
+  <v:line id="_x0000_s185518" style='position:absolute;flip:y' from="235.75pt,441.375pt"
+   to="235.875pt,444.5pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185519" style='position:absolute;left:233.375pt;top:446.875pt;
+   width:7.75pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s185520" style='position:absolute;flip:y' from="323.625pt,441.375pt"
+   to="323.75pt,444.5pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185521" style='position:absolute;left:321.375pt;top:446.875pt;
+   width:7.75pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s185522" style='position:absolute;flip:y' from="411.625pt,441.375pt"
+   to="411.75pt,444.5pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185523" style='position:absolute;left:406.25pt;top:446.875pt;
+   width:15.5pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s185524" style='position:absolute;flip:y' from="499.625pt,441.375pt"
+   to="499.75pt,444.5pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185525" style='position:absolute;left:494.25pt;top:446.875pt;
+   width:15.5pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s185526" style='position:absolute' from="235.75pt,444.5pt"
+   to="238pt,444.625pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185527" style='position:absolute;left:227.25pt;top:438.375pt;
+   width:7.75pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s185528" style='position:absolute' from="235.75pt,356.625pt"
+   to="238pt,356.75pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185529" style='position:absolute;left:227.25pt;top:350.375pt;
+   width:7.75pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s185530" style='position:absolute' from="235.75pt,268.625pt"
+   to="238pt,268.75pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185531" style='position:absolute;left:221.75pt;top:262.5pt;
+   width:15.5pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:line id="_x0000_s185532" style='position:absolute' from="235.75pt,180.625pt"
+   to="238pt,180.75pt" o:regroupid="1" strokeweight="0"/>
+  <v:rect id="_x0000_s185533" style='position:absolute;left:221.75pt;top:174.5pt;
+   width:15.5pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:oval id="_x0000_s185534" style='position:absolute;left:343.75pt;
+   top:297.125pt;width:6.875pt;height:7pt' o:regroupid="1" filled="f"
+   strokeweight="0"/>
+  <v:oval id="_x0000_s185535" style='position:absolute;left:383.875pt;top:277.125pt;
+   width:6.875pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185536" style='position:absolute;left:414.75pt;top:262.5pt;
+   width:6.875pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185537" style='position:absolute;left:476.5pt;top:195.375pt;
+   width:6.875pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185538" style='position:absolute;left:361.5pt;top:294.875pt;
+   width:6.875pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185539" style='position:absolute;left:332.125pt;top:332.625pt;
+   width:7pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185540" style='position:absolute;left:364.625pt;top:305.625pt;
+   width:6.875pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185541" style='position:absolute;left:434pt;top:244.75pt;
+   width:7pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185542" style='position:absolute;left:292.75pt;top:353.5pt;
+   width:7pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185543" style='position:absolute;left:331.375pt;top:314.875pt;
+   width:7pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185544" style='position:absolute;left:380.75pt;top:295.625pt;
+   width:7pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185545" style='position:absolute;left:343pt;top:302.625pt;
+   width:6.875pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185546" style='position:absolute;left:397.75pt;top:245.5pt;
+   width:7pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185547" style='position:absolute;left:417pt;top:264pt;
+   width:7pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185548" style='position:absolute;left:368.375pt;top:296.375pt;
+   width:7pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185549" style='position:absolute;left:279.625pt;top:364.25pt;
+   width:7pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185550" style='position:absolute;left:307.5pt;top:284pt;
+   width:6.875pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185551" style='position:absolute;left:401.625pt;top:253.25pt;
+   width:6.875pt;height:6.875pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185552" style='position:absolute;left:350.625pt;top:301pt;
+   width:7pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+  <v:oval id="_x0000_s185553" style='position:absolute;left:366.125pt;top:274pt;
+   width:6.875pt;height:7pt' o:regroupid="1" filled="f" strokeweight="0"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_s185554">
+  <v:polyline id="_x0000_s185554" style='position:absolute' points="235.75pt,444.5pt,252.625pt,426.75pt,270.375pt,409pt,288.125pt,391.25pt,305.875pt,373.5pt,323.625pt,356.625pt,340.625pt,338.875pt,358.375pt,321.125pt,376.125pt,303.375pt,393.875pt,285.625pt,411.625pt,268.625pt,428.625pt,250.875pt,446.375pt,233.125pt,464.125pt,215.375pt,481.875pt,197.625pt,499.625pt,180.625pt"
+   coordsize="2111,2111" o:regroupid="1" filled="f" strokeweight="1.5pt">
+   <v:stroke dashstyle="1 1"/>
+   <v:path arrowok="t"/>
+  </v:polyline></p:shaperange>
+ <p:shaperange id="_x0000_s185555">
+  <v:rect id="_x0000_s185555" style='position:absolute;left:145pt;top:284.25pt;
+   width:139.625pt;height:16.75pt;rotation:270;mso-wrap-style:none;
+   v-text-anchor:top' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s185556">
+  <v:rect id="_x0000_s185556" style='position:absolute;left:328.25pt;top:460pt;
+   width:108.875pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s185557" style='position:absolute;left:246.5pt;
+   top:193.75pt;width:123.5pt;height:31.625pt' o:regroupid="1" stroked="f"/>
+  <v:rect id="_x0000_s185566" style='position:absolute;left:275.875pt;top:195.375pt;
+   width:72.875pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s185567" style='position:absolute;left:275.875pt;
+   top:206.125pt;width:30.375pt;height:16.75pt;mso-wrap-style:none;
+   v-text-anchor:top' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s185568" style='position:absolute;left:296.625pt;
+   top:212.375pt;width:27.375pt;height:16.75pt;mso-wrap-style:none;
+   v-text-anchor:top' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s185569" style='position:absolute;left:312.125pt;
+   top:206.125pt;width:38.5pt;height:16.75pt;mso-wrap-style:none;
+   v-text-anchor:top' o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:rect id="_x0000_s185570" style='position:absolute;left:349.125pt;
+   top:212.375pt;width:38pt;height:16.75pt;mso-wrap-style:none;v-text-anchor:top'
+   o:regroupid="1" filled="f" stroked="f">
+   <v:textbox style='mso-fit-shape-to-text:t' inset="0,0,0,0"/>
+  </v:rect><v:oval id="_x0000_s185571" style='position:absolute;left:258.125pt;
+   top:199.25pt;width:6.875pt;height:6.875pt' o:regroupid="1" filled="f"
+   strokeweight="0"/>
+  <v:line id="_x0000_s185572" style='position:absolute' from="251.875pt,217pt"
+   to="269.625pt,217.125pt" o:regroupid="1" strokeweight="1.5pt">
+   <v:stroke dashstyle="1 1"/>
+  </v:line></p:shaperange>
+</xml>
